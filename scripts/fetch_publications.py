@@ -132,7 +132,9 @@ class Members:
         for s in rec.get("supervisor", []):
             for p in self.people:
                 given, family = p["name"].split(" ", 1)
-                if norm(s.get("family")) == norm(family) and norm(s.get("given")).startswith(norm(given)):
+                # DiVA's person id, when set, survives swapped name fields
+                if s.get("localId") in (p.get("diva") or []) or (
+                        norm(s.get("family")) == norm(family) and norm(s.get("given")).startswith(norm(given))):
                     names.append(p["name"])
         return names
 

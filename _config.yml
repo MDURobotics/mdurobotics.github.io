@@ -49,5 +49,7 @@ exclude:
   - Gemfile.lock
   - vendor
   - README.md
+  - NOTES.md
+  - notes
   - serve.sh
   - scripts

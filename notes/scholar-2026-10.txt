@@ -1,0 +1,157 @@
+2026|An adaptive data-enabled policy optimization approach for autonomous bicycle control
+2021|Trajectory tracking and stabilisation of a riderless bicycle
+2021|A comparative analysis and design of controllers for autonomous bicycles
+2019|A loop shaping method for stabilising a riderless bicycle
+2024|A Direct Data-Driven Control Design for Autonomous Bicycles
+2023|On the initialization problem for timed-elastic bands
+2025|A Modified Adaptive Data-Enabled Policy Optimization Control to Resolve State Perturbations
+2023|Control and Navigation of an Autonomous Bicycle
+2019|Development of a robust cascade controller for a riderless bicycle
+2026|Resilient Direct Data-Driven Control Design under Poisoned Input–State Samples
+2026|Direct Data-Driven and Model-Based Control Design for an Autonomous Bicycle
+2025|Direct Data-Driven Trajectory Tracking and Stabilization of an Autonomous Bicycle
+2011|A bluetooth radio energy consumption model for low-duty-cycle applications
+2015|Wearable weight estimation system
+2006|Small wireless ECG with Bluetooth communication to a PDA
+2008|Bluetooth energy characteristics in wireless sensor networks
+2016|Walking intensity estimation with a portable pedobarography system
+2018|Evaluation of the IngVaL pedobarography system for monitoring of walking speed
+2012|Comparison study of ZigBee and Bluetooth with regards to power consumption, packet-error-rate and distance
+2003|Non-invasive respiratory monitoring using long-period fiber grating sensors
+2017|Extraction of working memory load and the importance of understanding the temporal dynamics
+2016|Experimental comparison study of UWB technologies for static human detection
+2009|Wireless ecg network
+2018|Evaluation of closed-loop feedback system delay a time-critical perspective for neurofeedback training
+2015|Intelligent wireless body area network system for human motion analysis
+2013|Towards Predictable and Reliable Wireless Communication in Harsh Environments
+2012|A wireless low latency control system for harsh environments
+2025|Classification of Same Hand Motor Imagery Using Riemannian Geometry and Recurrent Neural Network
+2017|Inter-disciplinary and-sectorial cooperation for development of technology supporting behavioral change: Peer reviewed poster abstract
+2012|Development of Programmable Micro Power Meter Testbed for Radio Modules
+2012|A smart-Phone Based Monitoring System with Health Device Profile for Measuring Vital Physiological parameters
+2012|A smart-phone based monitoring system with health device profile
+2009|Reliable Wireless ECG Sensor Network
+2026|Personalized Control of a Robotic Arm: Toward BCI-Driven Neurorehabilitation
+2026|Joint-Level Effects of Personalized Curvature-Based Robotic Arm Motion
+2020|Challenges in using neural networks in safety-critical applications
+2022|A novel method for detecting UAVs using parallel neural networks with re-inference
+2020|Towards Reliable Computer Vision in Aviation: An Evaluation of Sensor Fusion and Quality Assessment
+2003|Critical review of non-invasive respiratory monitoring in medical care
+2002|Remote system for patient monitoring using Bluetooth
+2020|Towards safe human robot collaboration-Risk assessment of intelligent automation
+2021|GMP: A genetic mission planner for heterogeneous multirobot system applications
+2004|Local positioning for wireless sensors based on Bluetooth
+2019|Industrial challenges when planning and preparing collaborative and intelligent automation systems for final assembly stations
+2018|Adaptive autonomy in a search and rescue scenario
+2023|Optimizing parallel task execution for multi-agent mission planning
+2019|A genetic algorithm approach to multi-agent mission planning problems
+2019|TAMER: Task allocation in multi-robot systems through an entity-relationship model
+2011|Gimme-a general image multiview manipulation engine
+2023|Pattern-based verification of ROS 2 nodes using UPPAAL
+2001|New CO2 sensor with high resolution and fast response
+2023|Experimental evaluation of callback behavior in ROS 2 executors
+2017|A genetic mission planner for solving temporal multi-agent problems with concurrent tasks
+2022|Quantitative analysis of communication handling for centralized multi-agent robot systems using ROS2
+2009|Development of a breath alcohol analyzer for use on patients in emergency care
+2011|An embedded stereo vision module for 6D pose estimation and mapping
+2018|Requirements for designing and controlling autonomous collaborative robots system-an industrial case
+2004|Optimization of wireless Bluetooth sensor systems
+2013|An embedded stereo vision module for industrial vehicles automation
+1996|A and neutron scattering study of, where RE= Ce, Nd, Gd and Tb
+2018|Toward shared working space of human and robotic agents through dipole flow field for dependable path planning
+2014|Unobtrusive and highly accurate breath alcohol analysis enabled by improved methodology and technology
+2013|The Black Pearl-An Autonomus Underwater Vehicle
+2003|Wireless industrial sensor monitoring based on Bluetooth
+2019|Multiple machine learning algorithms comparison for modulation type classification for efficient cognitive radio
+2019|Petri net based navigation planning with dipole field and dynamic window approach for collision avoidance
+2022|Dependable navigation for multiple autonomous robots with petri nets based congestion control and dynamic obstacle avoidance
+2020|Planning and supervising autonomous underwater vehicles through the mission management tool
+2017|Towards Collaborative Adaptive Autonomous Agents
+2010|Improved breath alcohol analysis with use of carbon dioxide as the tracer gas
+2020|Multi-path planning for autonomous navigation of multiple robots in a shared workspace with humans
+2019|Extended Colored Traveling Salesperson for Modeling Multi-Agent Mission Planning Problems
+2022|Blind symbol rate estimation using wavelet transform and deep learning for fsk modulated signals
+2017|Dipole flow field for dependable path planning of multiple agents
+2016|A genetic planner for mission planning of cooperative agents in an underwater environment
+2016|Development and evaluation of algorithms for breath alcohol screening
+2014|Critical performance of a new breath alcohol analyzer for screening applications
+2024|A model-based methodology for automated verification of ros 2 systems
+2022|Fp-slic: A fully-pipelined fpga implementation of superpixel image segmentation
+2017|Failure analysis for adaptive autonomous agents using petri nets
+2017|High performance breath alcohol analysis
+2015|GIMME2-An embedded system for stereo vision and processing of megapixel images with FPGA-acceleration
+2004|Steps towards a minimal mobile wireless Bluetooth sensor
+2002|Artefact reduction in telemetric ECG monitoring
+2025|A model-based approach to automation of formal verification of ROS 2-based systems
+2020|Adaptive autonomy in wireless sensor networks
+2019|Unbounded sparse census transform using genetic algorithm
+2014|Measurement system for microwave imaging towards a biomedical application
+2011|Influence from breathing pattern on alcohol and tracer gas expirograms—Implications for alcolock use
+2005|Modelling of an electroacoustic gas sensor
+1997|High pressure μSR studies on single crystalline gadolinium
+2025|Pattern-based verification of ROS 2 applications using UPPAAL
+2019|Student report-autobike 2018
+2018|Analysis of perceived helpfulness in adaptive autonomous agent populations
+2015|High-speed segmentation-driven high-resolution matching
+2011|Resource limited hardware-based stereo matching for high-speed vision system
+2010|Improved breath alcohol analysis in patients with depressed consciousness
+2000|High pressure μSR studies: rare earths and related materials
+2000|Internal fields in magnetically ordered dysprosium, holmium and erbium
+2024|Novel semi-active upper-body exoskeleton for agriculture applications
+2022|Multi-agent mission planning
+2021|Exploiting parallelism in multi-task robot allocation problems
+2019|Navigation in a box stereovision for industry automation
+2000|μSR study of NdGa6
+1997|μSR investigations of gadolinium in the paramagnetic regime near the ferromagnetic transition
+1997|Muon diffusion in nanocrystalline copper
+2024|Uppaal-based modeling and verification of ros 2 multi-threaded execution and operating system reservations
+2024|Situation Awareness within Maritime Applications
+2023|Machine Learning-Based Coarse Frequency Bands Classification For Cognitive Radio Applications
+2022|Machine learning-based frequency bands classification for efficient frequency hopping spread spectrum applications
+2022|On Understanding the Role of Exoskeleton Robots in Hand Rehabilitation: A Brief Review
+2021|The genetic algorithm census transform: evaluation of census windows of different size and level of sparseness through hardware in-the-loop training
+2021|Multiple machine learning algorithms comparison for modulation type classification based on instantaneous values of the time domain signal and time series statistics
+2018|Comparison Between Static and Dynamic Willingness to Interact in Adaptive Autonomous Agents
+2017|Fault Tolerance Analysis for Dependable Autonomous Agents Using Colored Time Petri Nets
+2012|Utilization and performance considerations in resource optimized stereo matching for real-time reconfigurable hardware
+2005|Monitoring health and activity by Smartwear
+2000|High-pressure μSR studies on elemental rare earth metals
+2024|Verifying ROS 2 Based Distributed Robotic Systems
+2022|Blind vacant frequency channels detection for cognitive radio
+2018|Collaborative Adaptive Autonomous Agents
+2006|Algorithms and Protocols Enhancing Mobility Support for Wireless Sensor Networks Based on Bluetooth and Zigbee
+2004|End tidal carbon dioxide measurement using an electro acoustic sensor
+1999|Positive muons in nanocrystalline transition metals diffusion and magnetic nanostructure
+1997|Ferromagnetic erbium studied by μSR
+1997|μSR investigation of single crystalline dysprosium
+1997|Muon spin relaxation in hydrogen-loaded
+2024|A user interface for supervision of missions in the multi-UAV context using text-to-speech
+2023|Interplay of human and AI solvers on a planning problem
+2020|Modelling and control of the collaborative behavior of adaptive autonomous agents
+2014|Towards an embedded real-time high resolution vision system
+2011|Stereo vision algorithms in reconfigurable hardware for robotics applications
+2007|Induction Machine Speed Control
+2005|Measurements of Respiratory Carbon Dioxide
+1995|Trapping of positive muons in molybdenum
+2026|STRIDE–Simulation Testbed for Real-Time In-Flight Deconfliction Experiments
+2024|Design of a Bioinspired Robotic Finger: A Case Study on Conceptual Development for Robotic Hand Applications
+2023|Frequency Bands Classification Using Machine Learning for Frequency Hopping Spread Spectrum
+2022|Toward Dependable Multiple Path Planning for Autonomous Robots with Obstacle Avoidance and Congestion Control
+2021|Decentralised Multi-Robot Path Planning with Obstacle Avoidance and Congestion Control Constraints
+2020|AUTONOMOUS DETECTION OF VACANT FREQUENCY BANDS FOR COGNITIVE RADIO
+2019|Dependable Path Planning for Autonomous Control
+2019|The Genetic Algorithm Census Transform
+2018|Embedded Acceleration of Image Classification Applications for Stereo Vision Systems
+2017|Dependability for Autonomous Control with a Probability Approach
+2016|High Performance Breath Analysis
+2005|High throughput approach for bioinformatic design and cloning of protein epitope sequence tags suitable for antibody generation
+2005|Monitor the heart simply and smooth: with less artefacts using bluetooth
+2004|High throughput cloning and production of protein epitope signature tags from genes on chromosome 14, 22, X, and Y
+2001|Antiferromagnetism in Zn-doped as observed by muon spin resonance spectroscopy
+2000|Internal magnetic properties in rare earth metals and compounds
+2022|Autonomous UAS-based agriculture applications: General overview and relevant European case studies
+2020|Embedded high-resolution stereo-vision of high frame-rate and low latency through FPGA-acceleration
+2022|Dynamic connection handling for scalable robotic systems using ROS2
+2022|Preface of ICRAIC 2021
+2017|Research Planning Assignment 3
+2008|Extraction of an Energy model for Bluetooth 2.0 depending on transmission distance

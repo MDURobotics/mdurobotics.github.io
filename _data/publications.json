@@ -2659,6 +2659,24 @@
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:881464"
  },
  {
+  "id": "diva2:713609",
+  "type": "PhD thesis",
+  "year": 2014,
+  "title": "Measurement System for Microwave Imaging Towards a Biomedical Application",
+  "authors": [
+   {
+    "name": "Nikola Petrović",
+    "member": false
+   }
+  ],
+  "venue": "Mälardalen University",
+  "doi": null,
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:713609",
+  "supervisors": [
+   "Mikael Ekström"
+  ]
+ },
+ {
   "id": "diva2:1182182",
   "type": "Conference paper",
   "year": 2014,
