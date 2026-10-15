@@ -1,0 +1,44 @@
+title: "MDU Robotics"
+description: "Robotics research at Mälardalen University"
+url: "https://mdurobotics.github.io"
+baseurl: ""
+locale: "en-US"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+search: true
+
+repository: "mdurobotics/mdurobotics.github.io"
+
+author:
+  name: "MDU Robotics"
+  avatar: # "/assets/images/logo.png"
+  bio: "Robotics research at Mälardalen University"
+  location: "Västerås, Sweden"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mdurobotics"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mdurobotics"
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
