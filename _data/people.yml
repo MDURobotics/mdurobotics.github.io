@@ -35,7 +35,7 @@ members:
     diva: []   # no staff publications linked in DiVA yet
     url: "https://www.mdu.se/staff?id=jonas.larsson"
   - name: "Niklas Persson"
-    role: "Lecturer, PhD"
+    role: "Senior Lecturer"
     diva: ["npn01"]
     url: "https://www.mdu.se/staff?id=niklas.persson"
   - name: "Emil Persson"
