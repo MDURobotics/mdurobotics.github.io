@@ -19,7 +19,7 @@ members:
     diva: ["mem04"]
     url: "https://www.es.mdu.se/staff/177-Martin_Ekstrom"
   - name: "Carl Ahlberg"
-    role: "Research Engineer"
+    role: "Research Engineer, PhD"
     diva: ["cag01"]
     url: "https://www.mdu.se/staff?id=carl.ahlberg"
   - name: "Johan Hjorth"
@@ -27,7 +27,7 @@ members:
     diva: ["jht04"]
     url: "https://www.mdu.se/staff?id=johan.hjorth"
   - name: "Lennie Carlén Eriksson"
-    role: "Lecturer"
+    role: "PhD Student"
     diva: ["lcn04"]
     url: "https://www.mdu.se/staff?id=lennie.carlen.eriksson"
   - name: "Jonas Larsson"
@@ -35,7 +35,7 @@ members:
     diva: []   # no staff publications linked in DiVA yet
     url: "https://www.mdu.se/staff?id=jonas.larsson"
   - name: "Niklas Persson"
-    role: "Lecturer"
+    role: "Lecturer, PhD"
     diva: ["npn01"]
     url: "https://www.mdu.se/staff?id=niklas.persson"
   - name: "Emil Persson"
