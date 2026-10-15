@@ -20,18 +20,18 @@ EXPORT_URL = "https://mdu.diva-portal.org/smash/export.jsf"
 RECORD_URL = "https://mdu.diva-portal.org/smash/record.jsf?pid={}"
 
 # CSL type (+ DiVA genre for theses) -> label shown on the site.
-# Anything not listed (student theses, newspaper articles, ...) is skipped.
+# Anything not listed is skipped: student theses, newspaper articles, and
+# manuscripts (undated thesis chapters that usually also appear as papers).
 TYPES = {
     "article-journal": "Journal article",
     "paper-conference": "Conference paper",
     "chapter": "Book chapter",
     "book": "Book",
     "report": "Report",
-    "manuscript": "Manuscript",
+
     ("thesis", "PhD dissertation"): "PhD thesis",
     ("thesis", "Licentiate dissertation"): "Licentiate thesis",
 }
-
 
 def parse_people(path):
     """Minimal parser for the `members:` list in people.yml (avoids a PyYAML dependency)."""
@@ -57,6 +57,10 @@ def parse_people(path):
             p["diva"] = [p["diva"]]
     return people
 
+def parse_json(text):
+    """DiVA sometimes emits invalid escapes (e.g. a lone backslash in a title); double them."""
+    fixed = re.sub(r'\\(["\\/bfnrtu])|\\', lambda m: m.group(0) if m.group(1) else "\\\\", text)
+    return json.loads(fixed)
 
 def fetch_person(diva_id):
     params = {
@@ -73,16 +77,14 @@ def fetch_person(diva_id):
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
-                return json.load(r)
+                return parse_json(r.read().decode("utf-8"))
         except Exception as e:  # network hiccup or DiVA maintenance
             if attempt == 2:
                 raise RuntimeError(f"DiVA request for {diva_id!r} failed: {e}") from e
             time.sleep(5 * (attempt + 1))
 
-
 def norm(s):
     return re.sub(r"[^a-z]", "", (s or "").lower())
-
 
 def simplify(rec, member_keys):
     kind = TYPES.get(rec.get("type")) or TYPES.get((rec.get("type"), rec.get("genre")))
@@ -105,7 +107,6 @@ def simplify(rec, member_keys):
         "doi": rec.get("DOI"),
         "url": RECORD_URL.format(rec["id"]),
     }
-
 
 def main():
     ap = argparse.ArgumentParser()
@@ -134,7 +135,6 @@ def main():
         json.dump(pubs, f, ensure_ascii=False, indent=1)
         f.write("\n")
     print(f"Wrote {len(pubs)} publications to {args.out}", file=sys.stderr)
-
 
 if __name__ == "__main__":
     main()

@@ -16,7 +16,7 @@ include:
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
+    permalink: /student-projects/:name/
   events:
     output: true
     permalink: /events/:name/

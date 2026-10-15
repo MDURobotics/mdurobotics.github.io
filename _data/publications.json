@@ -1,1 +1,3086 @@
-[]
+[
+ {
+  "id": "diva2:2015869",
+  "type": "PhD thesis",
+  "year": 2026,
+  "title": "Direct Data-Driven and Model-Based Control Design for an Autonomous Bicycle",
+  "authors": [
+   {
+    "name": "Niklas Persson",
+    "member": true
+   }
+  ],
+  "venue": "Mälardalen University",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2015869"
+ },
+ {
+  "id": "diva2:2085167",
+  "type": "Conference paper",
+  "year": 2026,
+  "title": "Resilient Direct Data-Driven Control Design under Poisoned Input–State Samples",
+  "authors": [
+   {
+    "name": "Mojtaba Kaheni",
+    "member": false
+   },
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "European Control Conference (Piscataway, N.J. Online), ECC , 2026",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2085167"
+ },
+ {
+  "id": "diva2:2007738",
+  "type": "Journal article",
+  "year": 2025,
+  "title": "A model-based approach to automation of formal verification of ROS 2-based systems",
+  "authors": [
+   {
+    "name": "Lukas Dust",
+    "member": false
+   },
+   {
+    "name": "Rong Gu",
+    "member": false
+   },
+   {
+    "name": "Saad Mubeen",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Cristina Seceleanu",
+    "member": false
+   }
+  ],
+  "venue": "Frontiers in Robotics and AI",
+  "doi": "10.3389/frobt.2025.1592523",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2007738"
+ },
+ {
+  "id": "diva2:2015756",
+  "type": "Conference paper",
+  "year": 2025,
+  "title": "A Modified Adaptive Data-Enabled Policy Optimization Control to Resolve State Perturbations",
+  "authors": [
+   {
+    "name": "Mojtaba Kaheni",
+    "member": false
+   },
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Vittorio De Iuliis",
+    "member": false
+   },
+   {
+    "name": "Costanzo Manes",
+    "member": false
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "2025 IEEE 64th Conference on Decision and Control (CDC)",
+  "doi": "10.1109/CDC57313.2025.11312155",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2015756"
+ },
+ {
+  "id": "diva2:2088798",
+  "type": "Conference paper",
+  "year": 2025,
+  "title": "Classification of Same Hand Motor Imagery Using Riemannian Geometry and Recurrent Neural Network",
+  "authors": [
+   {
+    "name": "Jacob Johansson",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   }
+  ],
+  "venue": "International IEEE/EMBS Conference on Neural Engineering, NER",
+  "doi": "10.1109/NER61569.2025.11589170",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2088798"
+ },
+ {
+  "id": "diva2:1956825",
+  "type": "Journal article",
+  "year": 2025,
+  "title": "Pattern-based verification of ROS 2 applications using UPPAAL",
+  "authors": [
+   {
+    "name": "Lukas Dust",
+    "member": false
+   },
+   {
+    "name": "Rong Gu",
+    "member": false
+   },
+   {
+    "name": "Cristina Seceleanu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Saad Mubeen",
+    "member": false
+   }
+  ],
+  "venue": "International Journal on Software Tools for Technology Transfer",
+  "doi": "10.1007/s10009-025-00802-4",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1956825"
+ },
+ {
+  "id": "diva2:1912960",
+  "type": "Conference paper",
+  "year": 2024,
+  "title": "A Direct Data-Driven Control Design for Autonomous Bicycles",
+  "authors": [
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Kaheni Kaheni",
+    "member": false
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "IEEE International Conference on Automation Science and Engineering",
+  "doi": "10.1109/CASE59546.2024.10711696",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1912960"
+ },
+ {
+  "id": "diva2:1870143",
+  "type": "Conference paper",
+  "year": 2024,
+  "title": "A Model-Based Methodology for Automated Verification of ROS 2 Systems",
+  "authors": [
+   {
+    "name": "Lukas Dust",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Rong Gu",
+    "member": false
+   },
+   {
+    "name": "Saad Mubeen",
+    "member": false
+   },
+   {
+    "name": "Cristina Seceleanu",
+    "member": false
+   }
+  ],
+  "venue": "Proceedings - 2024 IEEE/ACM 6th International Workshop on Robotics Software Engineering, RoSE 2024",
+  "doi": "10.1145/3643663.3643970",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1870143"
+ },
+ {
+  "id": "diva2:1932552",
+  "type": "Conference paper",
+  "year": 2024,
+  "title": "A User Interface for Supervision of Missions in the Multi-UAV Context Using Text-to-Speech",
+  "authors": [
+   {
+    "name": "Afshin Ameri",
+    "member": false
+   },
+   {
+    "name": "Viktor Gemo Lindgren",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "R. Fresco",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Proceedings of the 12th International Conference on Human-Agent Interaction",
+  "doi": "10.1145/3687272.3690897",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1932552"
+ },
+ {
+  "id": "diva2:1901400",
+  "type": "Conference paper",
+  "year": 2024,
+  "title": "Design of a Bioinspired Robotic Finger : A Case Study on Conceptual Development for Robotic Hand Applications",
+  "authors": [
+   {
+    "name": "A. Alberto Jaén Ortega",
+    "member": false
+   },
+   {
+    "name": "M. De Los Angeles Ortega Del Rosario",
+    "member": false
+   },
+   {
+    "name": "Per Anders Rickard Hellström",
+    "member": false
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Proceedings of the LACCEI international Multi-conference for Engineering, Education and Technology",
+  "doi": "10.18687/LACCEI2024.1.1.1008",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1901400"
+ },
+ {
+  "id": "diva2:1940349",
+  "type": "Conference paper",
+  "year": 2024,
+  "title": "Novel Semi-active Upper-body Exoskeleton for Agriculture Applications",
+  "authors": [
+   {
+    "name": "H. Rodriguez",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "B. Ramirez",
+    "member": false
+   },
+   {
+    "name": "P. Marback",
+    "member": false
+   }
+  ],
+  "venue": "Proc. - Int. Eng., Sci. Technol. Conf., IESTEC",
+  "doi": "10.1109/IESTEC62784.2024.10820212",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1940349"
+ },
+ {
+  "id": "diva2:1918084",
+  "type": "Conference paper",
+  "year": 2024,
+  "title": "Situation Awareness within Maritime Applications",
+  "authors": [
+   {
+    "name": "Rasmus Hamrén",
+    "member": false
+   },
+   {
+    "name": "Stephan Baumgart",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "OCEANS 2024 - SINGAPORE",
+  "doi": "10.1109/OCEANS51537.2024.10682310",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1918084"
+ },
+ {
+  "id": "diva2:1896746",
+  "type": "Conference paper",
+  "year": 2024,
+  "title": "UPPAAL-Based Modeling and Verification of ROS 2 Multi-threaded Execution and Operating System Reservations",
+  "authors": [
+   {
+    "name": "Lukas Dust",
+    "member": false
+   },
+   {
+    "name": "Rong Gu",
+    "member": false
+   },
+   {
+    "name": "Cristina Seceleanu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Saad Mubeen",
+    "member": false
+   }
+  ],
+  "venue": "Lect. Notes Comput. Sci.",
+  "doi": "10.1007/978-3-031-68150-9_3",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1896746"
+ },
+ {
+  "id": "diva2:1730676",
+  "type": "Licentiate thesis",
+  "year": 2023,
+  "title": "Control and Navigation of an Autonomous Bicycle",
+  "authors": [
+   {
+    "name": "Niklas Persson",
+    "member": true
+   }
+  ],
+  "venue": "Mälardalens universitet",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1730676"
+ },
+ {
+  "id": "diva2:1810916",
+  "type": "Conference paper",
+  "year": 2023,
+  "title": "Experimental Evaluation of Callback Behavior in ROS 2 Executors",
+  "authors": [
+   {
+    "name": "Lukas Dust",
+    "member": false
+   },
+   {
+    "name": "Emil Persson",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Saad Mubeen",
+    "member": false
+   },
+   {
+    "name": "Cristina Seceleanu",
+    "member": false
+   },
+   {
+    "name": "Rong Gu",
+    "member": false
+   }
+  ],
+  "venue": "IEEE Int. Conf. Emerging Technol. Factory Autom., ETFA",
+  "doi": "10.1109/ETFA54631.2023.10275668",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1810916"
+ },
+ {
+  "id": "diva2:1845797",
+  "type": "Conference paper",
+  "year": 2023,
+  "title": "Interplay of Human and AI Solvers on a Planning Problem",
+  "authors": [
+   {
+    "name": "Afshin Ameri",
+    "member": false
+   },
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "J. Dreo",
+    "member": false
+   }
+  ],
+  "venue": "Conf. Proc. IEEE Int. Conf. Syst. Man Cybern.",
+  "doi": "10.1109/SMC53992.2023.10394024",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1845797"
+ },
+ {
+  "id": "diva2:1784488",
+  "type": "Conference paper",
+  "year": 2023,
+  "title": "Machine Learning-Based Coarse Frequency Bands Classification For Cognitive Radio Applications",
+  "authors": [
+   {
+    "name": "Inna Valieva",
+    "member": false
+   },
+   {
+    "name": "B. Shashidhar",
+    "member": false
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Johan Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Iurii Voitenko",
+    "member": false
+   }
+  ],
+  "venue": "Int. Conf. Electr. Eng./Electron., Comput., Telecommun. Inf. Technol., ECTI-CON",
+  "doi": "10.1109/ECTI-CON58255.2023.10153155",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1784488"
+ },
+ {
+  "id": "diva2:1724597",
+  "type": "Conference paper",
+  "year": 2023,
+  "title": "On the Initialization Problem for Timed-Elastic Bands",
+  "authors": [
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "IFAC PAPERSONLINE",
+  "doi": "10.1016/j.ifacol.2023.10.574",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1724597"
+ },
+ {
+  "id": "diva2:1750037",
+  "type": "Journal article",
+  "year": 2023,
+  "title": "Optimizing Parallel Task Execution for Multi-Agent Mission Planning",
+  "authors": [
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "IEEE Access",
+  "doi": "10.1109/ACCESS.2023.3254900",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1750037"
+ },
+ {
+  "id": "diva2:1808059",
+  "type": "Conference paper",
+  "year": 2023,
+  "title": "Pattern-Based Verification of ROS 2 Nodes Using UPPAAL",
+  "authors": [
+   {
+    "name": "Lukas Dust",
+    "member": false
+   },
+   {
+    "name": "Rong Gu",
+    "member": false
+   },
+   {
+    "name": "Cristina Seceleanu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Saad Mubeen",
+    "member": false
+   }
+  ],
+  "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+  "doi": "10.1007/978-3-031-43681-9_4",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1808059"
+ },
+ {
+  "id": "diva2:1719447",
+  "type": "Conference paper",
+  "year": 2022,
+  "title": "A novel method for detecting uavs using parallelneural networks with re-inference",
+  "authors": [
+   {
+    "name": "Hubert Stepien",
+    "member": false
+   },
+   {
+    "name": "Martin Bilger",
+    "member": false
+   },
+   {
+    "name": "Håkan Forsberg",
+    "member": false
+   },
+   {
+    "name": "Billy Lindgren",
+    "member": false
+   },
+   {
+    "name": "Johan Hjorth",
+    "member": true
+   }
+  ],
+  "venue": "33rd Congress of the International Council of the Aeronautical Sciences, Stockholm, Sweden, 4-9 September, 2022",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1719447"
+ },
+ {
+  "id": "diva2:1716918",
+  "type": "Conference paper",
+  "year": 2022,
+  "title": "Blind Symbol Rate Estimation Using Wavelet Transform and Deep Learning for FSK Modulated Signals",
+  "authors": [
+   {
+    "name": "Inna Valieva",
+    "member": false
+   },
+   {
+    "name": "Iurii Voitenko",
+    "member": false
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Johan Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "2022 International Conference on Advanced Technologies for Communications (ATC)",
+  "doi": "10.1109/atc55345.2022.9943051",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1716918"
+ },
+ {
+  "id": "diva2:1657502",
+  "type": "Conference paper",
+  "year": 2022,
+  "title": "Blind Vacant Frequency Channels Detection for Cognitive Radio",
+  "authors": [
+   {
+    "name": "Inna Valieva",
+    "member": false
+   },
+   {
+    "name": "B. Shashidhar",
+    "member": false
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Johan Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "I. Voitenko",
+    "member": false
+   }
+  ],
+  "venue": "2022 International Conference on Electronics, Information, and Communication, ICEIC 2022",
+  "doi": "10.1109/ICEIC54506.2022.9748704",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1657502"
+ },
+ {
+  "id": "diva2:1613950",
+  "type": "Journal article",
+  "year": 2022,
+  "title": "Dependable Navigation for Multiple Autonomous Robots with Petri Nets Based Congestion Control and Dynamic Obstacle Avoidance",
+  "authors": [
+   {
+    "name": "LanAnh Trinh",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   }
+  ],
+  "venue": "JOURNAL OF INTELLIGENT & ROBOTIC SYSTEMS",
+  "doi": "10.1007/s10846-022-01589-1",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1613950"
+ },
+ {
+  "id": "diva2:1718790",
+  "type": "Conference paper",
+  "year": 2022,
+  "title": "FP-SLIC : A Fully-Pipelined FPGA Implementation of Superpixel ImageSegmentation",
+  "authors": [
+   {
+    "name": "Adnan Ghaderi",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Magnus Östgren",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Proceedings : 2022 25th Euromicro Conference on Digital System Design, DSD 2022",
+  "doi": "10.1109/DSD57027.2022.00024",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1718790"
+ },
+ {
+  "id": "diva2:1558952",
+  "type": "Journal article",
+  "year": 2022,
+  "title": "GMP : A Genetic Mission Planner for Heterogeneous Multirobot System Applications",
+  "authors": [
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "IEEE Transactions on Cybernetics",
+  "doi": "10.1109/TCYB.2021.3070913",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1558952"
+ },
+ {
+  "id": "diva2:1736923",
+  "type": "Conference paper",
+  "year": 2022,
+  "title": "Machine Learning-Based Frequency Bands Classification for Efficient Frequency Hopping Spread Spectrum Applications",
+  "authors": [
+   {
+    "name": "Inna Valieva",
+    "member": false
+   },
+   {
+    "name": "B. Shashidhar",
+    "member": false
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Johan Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "I. Voitenko",
+    "member": false
+   }
+  ],
+  "venue": "Proceedings - IEEE Military Communications Conference MILCOM",
+  "doi": "10.1109/MILCOM55135.2022.10017912",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1736923"
+ },
+ {
+  "id": "diva2:1743419",
+  "type": "Conference paper",
+  "year": 2022,
+  "title": "On Understanding the Role of Exoskeleton Robots in Hand Rehabilitation : A Brief Review",
+  "authors": [
+   {
+    "name": "A. A. Jaen Ortega",
+    "member": false
+   },
+   {
+    "name": "M. De Los Angeles Ortega Del Rosario",
+    "member": false
+   },
+   {
+    "name": "Per Hellström",
+    "member": false
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Proceedings - 2022 8th International Engineering, Sciences and Technology Conference, IESTEC 2022",
+  "doi": "10.1109/IESTEC54539.2022.00074",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1743419"
+ },
+ {
+  "id": "diva2:1646660",
+  "type": "Journal article",
+  "year": 2022,
+  "title": "Preface of ICRAIC 2021",
+  "authors": [
+   {
+    "name": "Y. Wang",
+    "member": false
+   },
+   {
+    "name": "F. Xie",
+    "member": false
+   },
+   {
+    "name": "H. Li",
+    "member": false
+   },
+   {
+    "name": "W. Ruan",
+    "member": false
+   },
+   {
+    "name": "G. Cui",
+    "member": false
+   },
+   {
+    "name": "J. Jiao",
+    "member": false
+   },
+   {
+    "name": "G. Carbone",
+    "member": false
+   },
+   {
+    "name": "Y. Chen",
+    "member": false
+   },
+   {
+    "name": "H. Liu",
+    "member": false
+   },
+   {
+    "name": "W. Song",
+    "member": false
+   },
+   {
+    "name": "F. Yu",
+    "member": false
+   },
+   {
+    "name": "P. Wu",
+    "member": false
+   },
+   {
+    "name": "D. Zhang",
+    "member": false
+   },
+   {
+    "name": "G. Kang",
+    "member": false
+   },
+   {
+    "name": "G. Theodoropoulos",
+    "member": false
+   },
+   {
+    "name": "Q. Duan",
+    "member": false
+   },
+   {
+    "name": "V. Sezer",
+    "member": false
+   },
+   {
+    "name": "M., Jr. Ramos",
+    "member": false
+   },
+   {
+    "name": "V. Mj",
+    "member": false
+   },
+   {
+    "name": "J. S. de Caro",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "I. I. Hidalgo",
+    "member": false
+   },
+   {
+    "name": "R. Eshuis",
+    "member": false
+   },
+   {
+    "name": "J. Zhao",
+    "member": false
+   },
+   {
+    "name": "R. Sun",
+    "member": false
+   },
+   {
+    "name": "P. Lv",
+    "member": false
+   },
+   {
+    "name": "L. Huang",
+    "member": false
+   },
+   {
+    "name": "W. Qian",
+    "member": false
+   },
+   {
+    "name": "Y. Yu",
+    "member": false
+   },
+   {
+    "name": "H. Huang",
+    "member": false
+   },
+   {
+    "name": "L. Zhang",
+    "member": false
+   },
+   {
+    "name": "W. Liu",
+    "member": false
+   },
+   {
+    "name": "H. Shi",
+    "member": false
+   },
+   {
+    "name": "J. Huang",
+    "member": false
+   },
+   {
+    "name": "Z. Liu",
+    "member": false
+   },
+   {
+    "name": "N. Faci",
+    "member": false
+   },
+   {
+    "name": "S. Wang",
+    "member": false
+   },
+   {
+    "name": "Y. Zhang",
+    "member": false
+   },
+   {
+    "name": "Z. Han",
+    "member": false
+   },
+   {
+    "name": "F. Portela",
+    "member": false
+   },
+   {
+    "name": "M. Cremaschi",
+    "member": false
+   },
+   {
+    "name": "O. W. Samuel",
+    "member": false
+   },
+   {
+    "name": "M. H. Tanveer",
+    "member": false
+   }
+  ],
+  "venue": "Journal of Physics, Conference Series",
+  "doi": "10.1088/1742-6596/2203/1/011001",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1646660"
+ },
+ {
+  "id": "diva2:1730896",
+  "type": "Journal article",
+  "year": 2022,
+  "title": "Quantitative analysis of communication handling for centralized multi-agent robot systems using ROS2",
+  "authors": [
+   {
+    "name": "Lukas Dust",
+    "member": false
+   },
+   {
+    "name": "Emil Persson",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Saad Mubeen",
+    "member": false
+   },
+   {
+    "name": "E. Dean",
+    "member": false
+   }
+  ],
+  "venue": "IEEE Conference on Industrial Informatics",
+  "doi": "10.1109/INDIN51773.2022.9976160",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1730896"
+ },
+ {
+  "id": "diva2:1651811",
+  "type": "Conference paper",
+  "year": 2021,
+  "title": "A Comparative Analysis and Design of Controllers for Autonomous Bicycles",
+  "authors": [
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Tom Andersson",
+    "member": false
+   },
+   {
+    "name": "Anas Fattouh",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "2021 EUROPEAN CONTROL CONFERENCE (ECC)",
+  "doi": "10.23919/ECC54610.2021.9655223",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1651811"
+ },
+ {
+  "id": "diva2:1558973",
+  "type": "Conference paper",
+  "year": 2021,
+  "title": "Exploiting Parallelism in Multi-Task Robot Allocation Problems",
+  "authors": [
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "2021 IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)",
+  "doi": "10.1109/ICARSC52212.2021.9429814",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1558973"
+ },
+ {
+  "id": "diva2:1534421",
+  "type": "Journal article",
+  "year": 2021,
+  "title": "Multiple machine learning algorithms comparison for modulation type classification based on instantaneous values of the time domain signal and time series statistics derived from wavelet transform",
+  "authors": [
+   {
+    "name": "Inna Valieva",
+    "member": false
+   },
+   {
+    "name": "I. Voitenko",
+    "member": false
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Johan Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Advances in Science, Technology and Engineering Systems",
+  "doi": "10.25046/aj060172",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1534421"
+ },
+ {
+  "id": "diva2:1469171",
+  "type": "Journal article",
+  "year": 2021,
+  "title": "The genetic algorithm census transform : evaluation of census windows of different size and level of sparseness through hardware in-the-loop training",
+  "authors": [
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Miguel Leon",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Journal of Real-Time Image Processing",
+  "doi": "10.1007/s11554-020-00993-w",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1469171"
+ },
+ {
+  "id": "diva2:1610021",
+  "type": "Conference paper",
+  "year": 2021,
+  "title": "Trajectory tracking and stabilisation of a riderless bicycle*",
+  "authors": [
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Martin C. Ekström",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "2021 IEEE International Intelligent Transportation Systems Conference (ITSC)",
+  "doi": "10.1109/ITSC48978.2021.9564958",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1610021"
+ },
+ {
+  "id": "diva2:1381268",
+  "type": "Book chapter",
+  "year": 2020,
+  "title": "A Genetic Algorithm Approach to Multi-Agent Mission Planning Problems",
+  "authors": [
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "Operations Research and Enterprise Systems",
+  "doi": "10.1007/978-3-030-37584-3_6",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1381268"
+ },
+ {
+  "id": "diva2:1428871",
+  "type": "Conference paper",
+  "year": 2020,
+  "title": "Adaptive Autonomy in Wireless Sensor Networks",
+  "authors": [
+   {
+    "name": "Mirgita Frasheri",
+    "member": false
+   },
+   {
+    "name": "Jose Cano-Garcia",
+    "member": false
+   },
+   {
+    "name": "Eva Gonzalez-Parada",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   },
+   {
+    "name": "Cristina Urdiales",
+    "member": false
+   }
+  ],
+  "venue": "Proceedings of the International Joint Conference on Autonomous Agents and Multiagent Systems, AAMAS",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1428871"
+ },
+ {
+  "id": "diva2:1514839",
+  "type": "Conference paper",
+  "year": 2020,
+  "title": "Challenges in using neural networks in safety-critical applications",
+  "authors": [
+   {
+    "name": "Håkan Forsberg",
+    "member": false
+   },
+   {
+    "name": "J. Linden",
+    "member": false
+   },
+   {
+    "name": "Johan Hjorth",
+    "member": true
+   },
+   {
+    "name": "T. Manefjord",
+    "member": false
+   },
+   {
+    "name": "Masoud Daneshtalab",
+    "member": false
+   }
+  ],
+  "venue": "AIAA/IEEE Digital Avionics Systems Conference - Proceedings",
+  "doi": "10.1109/DASC50938.2020.9256519",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1514839"
+ },
+ {
+  "id": "diva2:1375116",
+  "type": "PhD thesis",
+  "year": 2020,
+  "title": "Embedded high-resolution stereo-vision of high frame-rate and low latency through FPGA-acceleration",
+  "authors": [
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   }
+  ],
+  "venue": "Mälardalen University",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1375116"
+ },
+ {
+  "id": "diva2:1428869",
+  "type": "Report",
+  "year": 2020,
+  "title": "GLocal : A Hybrid Approach to the Multi-Agent Mission Re-Planning Problem",
+  "authors": [
+   {
+    "name": "Mirgita Frasheri",
+    "member": false
+   },
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1428869"
+ },
+ {
+  "id": "diva2:1471295",
+  "type": "Conference paper",
+  "year": 2020,
+  "title": "Multi-Path Planning for Autonomous Navigation of Multiple Robots in a Shared Workspace with Humans",
+  "authors": [
+   {
+    "name": "LanAnh Trinh",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   }
+  ],
+  "venue": "2020 6th International Conference on Control, Automation and Robotics ICCAR",
+  "doi": "10.1109/ICCAR49639.2020.9108082",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1471295"
+ },
+ {
+  "id": "diva2:1499499",
+  "type": "Conference paper",
+  "year": 2020,
+  "title": "Planning and Supervising Autonomous Underwater Vehicles through the Mission Management Tool",
+  "authors": [
+   {
+    "name": "Afshin Ameri",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Global OCEANS 2020 OCEANS",
+  "doi": "10.1109/IEEECONF38699.2020.9389393",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1499499"
+ },
+ {
+  "id": "diva2:1484621",
+  "type": "Conference paper",
+  "year": 2020,
+  "title": "Towards safe human robot collaboration - Risk assessment of intelligent automation",
+  "authors": [
+   {
+    "name": "Atieh Hanna",
+    "member": false
+   },
+   {
+    "name": "K. Bengtsson",
+    "member": false
+   },
+   {
+    "name": "P. -L Götvall",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "IEEE International Conference on Emerging Technologies and Factory Automation, ETFA",
+  "doi": "10.1109/ETFA46521.2020.9212127",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1484621"
+ },
+ {
+  "id": "diva2:1370242",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "A loop shaping method for stabilising a riderless bicycle",
+  "authors": [
+   {
+    "name": "Tom Andersson",
+    "member": false
+   },
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Anas Fattouh",
+    "member": false
+   },
+   {
+    "name": "Martin C. Ekström",
+    "member": true
+   }
+  ],
+  "venue": "2019 European Conference on Mobile Robots, ECMR 2019 - Proceedings",
+  "doi": "10.1109/ECMR.2019.8870965",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1370242"
+ },
+ {
+  "id": "diva2:1314605",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "Extended colored traveling salesperson for modeling multi-agent mission planning problems",
+  "authors": [
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "ICORES 2019 - Proceedings of the 8th International Conference on Operations Research and Enterprise Systems",
+  "doi": "10.5220/0007309002370244",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1314605"
+ },
+ {
+  "id": "diva2:1394904",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "Industrial Challenges when Planning and Preparing Collaborative and Intelligent Automation Systems for Final Assembly Stations",
+  "authors": [
+   {
+    "name": "Atieh Hanna",
+    "member": false
+   },
+   {
+    "name": "K. Bengtsson",
+    "member": false
+   },
+   {
+    "name": "M. Dahl",
+    "member": false
+   },
+   {
+    "name": "E. Eros",
+    "member": false
+   },
+   {
+    "name": "P. -L Götvall",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "IEEE International Conference on Emerging Technologies and Factory Automation, ETFA",
+  "doi": "10.1109/ETFA.2019.8869014",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1394904"
+ },
+ {
+  "id": "diva2:1502848",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "Multiple Machine Learning Algorithms Comparison for Modulation Type Classification for Efficient Cognitive Radio",
+  "authors": [
+   {
+    "name": "Inna Valieva",
+    "member": false
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Johan Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Iurii Voitenko",
+    "member": false
+   }
+  ],
+  "venue": "MILCOM 2019 - 2019 IEEE Military Communications Conference (MILCOM)",
+  "doi": "10.1109/MILCOM47813.2019.9020735",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1502848"
+ },
+ {
+  "id": "diva2:1327393",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "Petri Net Based Navigation Planning with Dipole Field and Dynamic Window Approach for Collision Avoidance",
+  "authors": [
+   {
+    "name": "Lan Anh Trinh",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   }
+  ],
+  "venue": "International Conference on Control, Decision and Information Technologies CoDIT",
+  "doi": "10.1109/CoDIT.2019.8820359",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1327393"
+ },
+ {
+  "id": "diva2:1377836",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "TAMER : Task Allocation in Multi-robot Systems Through an Entity-Relationship Model",
+  "authors": [
+   {
+    "name": "Branko Miloradović",
+    "member": false
+   },
+   {
+    "name": "Mirgita Frasheri",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "PRIMA 2019 : Principles and Practice of Multi-Agent Systems",
+  "doi": "10.1007/978-3-030-33792-6_32",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1377836"
+ },
+ {
+  "id": "diva2:1327850",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "Unbounded Sparse Census Transform using Genetic Algorithm",
+  "authors": [
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Miguel Leon",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "2019 IEEE WINTER CONFERENCE ON APPLICATIONS OF COMPUTER VISION (WACV)",
+  "doi": "10.1109/WACV.2019.00177",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1327850"
+ },
+ {
+  "id": "diva2:1187250",
+  "type": "Journal article",
+  "year": 2018,
+  "title": "Activity Monitors as Support for Older Persons’ Physical Activity in Daily Life : Qualitative Study of the Users’ Experiences",
+  "authors": [
+   {
+    "name": "Maria Ehn",
+    "member": false
+   },
+   {
+    "name": "Lennie Carlén Eriksson",
+    "member": true
+   },
+   {
+    "name": "Nina Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Ann-Christin Johansson",
+    "member": false
+   }
+  ],
+  "venue": "JMIR mhealth and uhealth",
+  "doi": "10.2196/mhealth.8345",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1187250"
+ },
+ {
+  "id": "diva2:1233552",
+  "type": "Conference paper",
+  "year": 2018,
+  "title": "Adaptive Autonomy in a Search and Rescue Scenario",
+  "authors": [
+   {
+    "name": "Mirgita Frasheri",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "International Conference on Self-Adaptive and Self-Organizing Systems, SASO, Volume 2018-September, 15 January 2019",
+  "doi": "10.1109/SASO.2018.00026",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1233552"
+ },
+ {
+  "id": "diva2:1205174",
+  "type": "Conference paper",
+  "year": 2018,
+  "title": "Analysis of perceived helpfulness in adaptive autonomous agent populations",
+  "authors": [
+   {
+    "name": "Mirgita Frasheri",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Transactions on Computational Collective Intelligence XXVIII",
+  "doi": "10.1007/978-3-319-78301-7_10",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1205174"
+ },
+ {
+  "id": "diva2:1204632",
+  "type": "Conference paper",
+  "year": 2018,
+  "title": "Comparison Between Static and Dynamic Willingness to Interact in Adaptive Autonomous Agents",
+  "authors": [
+   {
+    "name": "Mirgita Frasheri",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Proceedings of the 10th International Conference on Agents and Artificial Intelligence",
+  "doi": "10.5220/0006648002580267",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1204632"
+ },
+ {
+  "id": "diva2:1249772",
+  "type": "Conference paper",
+  "year": 2018,
+  "title": "Embedded Acceleration of Image Classification Applications for Stereo Vision Systems",
+  "authors": [
+   {
+    "name": "Mohammad Loni",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Masoud Daneshtalab",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Mikael Sjödin",
+    "member": false
+   }
+  ],
+  "venue": "Design, Automation &amp; Test in Europe Conference &amp; Exhibition DATE'18",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1249772"
+ },
+ {
+  "id": "diva2:1243117",
+  "type": "Conference paper",
+  "year": 2018,
+  "title": "Evaluation of closed-loop feedback system delay a time-critical perspective for neurofeedback training",
+  "authors": [
+   {
+    "name": "Jonatan Tidare",
+    "member": false
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   },
+   {
+    "name": "Martin C. Ekström",
+    "member": true
+   }
+  ],
+  "venue": "BIODEVICES 2018 - 11th International Conference on Biomedical Electronics and Devices, Proceedings; Part of 11th International Joint Conference on Biomedical Engineering Systems and Technologies, BIOSTEC 2018",
+  "doi": "10.5220/0006598301870193",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1243117"
+ },
+ {
+  "id": "diva2:1206002",
+  "type": "Journal article",
+  "year": 2018,
+  "title": "Evaluation of the IngVaL Pedobarography System for Monitoring of Walking Speed",
+  "authors": [
+   {
+    "name": "Per Anders Rickard Hellstrom",
+    "member": false
+   },
+   {
+    "name": "Anna Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Mia Folke",
+    "member": false
+   }
+  ],
+  "venue": "Healthcare Informatics Research",
+  "doi": "10.4258/hir.2018.24.2.118",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1206002"
+ },
+ {
+  "id": "diva2:1274077",
+  "type": "Conference paper",
+  "year": 2018,
+  "title": "Requirements for designing and controlling autonomous collaborative robots system-an industrial case",
+  "authors": [
+   {
+    "name": "Atieh Hanna",
+    "member": false
+   },
+   {
+    "name": "P. -L Götvall",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "K. Bengtsson",
+    "member": false
+   }
+  ],
+  "venue": "Advances in Transdisciplinary Engineering",
+  "doi": "10.3233/978-1-61499-902-7-139",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1274077"
+ },
+ {
+  "id": "diva2:1222435",
+  "type": "Journal article",
+  "year": 2018,
+  "title": "Toward Shared Working Space of Human and Robotic Agents Through Dipole Flow Field for Dependable Path Planning",
+  "authors": [
+   {
+    "name": "LanAnh Trinh",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   }
+  ],
+  "venue": "Frontiers in Neurorobotics",
+  "doi": "10.3389/fnbot.2018.00028",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1222435"
+ },
+ {
+  "id": "diva2:1133935",
+  "type": "Conference paper",
+  "year": 2017,
+  "title": "A genetic mission planner for solving temporal multi-agent problems with concurrent tasks",
+  "authors": [
+   {
+    "name": "Branko Miloradovic",
+    "member": false
+   },
+   {
+    "name": "Baran Çürüklü",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Lecture Notes in Computer Science, vol. 10386",
+  "doi": "10.1007/978-3-319-61833-3_51",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1133935"
+ },
+ {
+  "id": "diva2:1152624",
+  "type": "Journal article",
+  "year": 2017,
+  "title": "Dependability for Autonomous Control with a Probability Approach",
+  "authors": [
+   {
+    "name": "LanAnh Trinh",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "ERCIM News",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1152624"
+ },
+ {
+  "id": "diva2:1153136",
+  "type": "Conference paper",
+  "year": 2017,
+  "title": "Dipole Flow Field for Dependable Path Planning of Multiple Agents",
+  "authors": [
+   {
+    "name": "LanAnh Trinh",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   }
+  ],
+  "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems IROS",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1153136"
+ },
+ {
+  "id": "diva2:1141148",
+  "type": "Conference paper",
+  "year": 2017,
+  "title": "Extraction of working memory load and the importance of understanding the temporal dynamics",
+  "authors": [
+   {
+    "name": "Elaine Astrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "International IEEE/EMBS Conference on Neural Engineering, NER",
+  "doi": "10.1109/NER.2017.8008433",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1141148"
+ },
+ {
+  "id": "diva2:1152931",
+  "type": "Conference paper",
+  "year": 2017,
+  "title": "Failure Analysis for Adaptive Autonomous Agents using Petri Nets",
+  "authors": [
+   {
+    "name": "Mirgita Frasheri",
+    "member": false
+   },
+   {
+    "name": "LanAnh Trinh",
+    "member": false
+   },
+   {
+    "name": "Baran Curuklu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Proceedings of the 2017 Federated Conference on Computer Science and Information Systems, FedCSIS 2017",
+  "doi": "10.15439/2017F226",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1152931"
+ },
+ {
+  "id": "diva2:1056451",
+  "type": "Conference paper",
+  "year": 2017,
+  "title": "Fault Tolerance Analysis for Dependable Autonomous Agents Using Colored Time Petri Nets",
+  "authors": [
+   {
+    "name": "Lan Anh Trinh",
+    "member": false
+   },
+   {
+    "name": "Baran Cürüklü",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "ICAART : PROCEEDINGS OF THE 9TH INTERNATIONAL CONFERENCE ON AGENTS AND ARTIFICIAL INTELLIGENCE, VOL 1",
+  "doi": "10.5220/0006196002280235",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1056451"
+ },
+ {
+  "id": "diva2:1168168",
+  "type": "Conference paper",
+  "year": 2017,
+  "title": "Inter- disciplinary and -sectorial cooperation for development of technology supporting behavioral change : Peer reviewed poster abstract",
+  "authors": [
+   {
+    "name": "Maria Ehn",
+    "member": false
+   },
+   {
+    "name": "Mattias Derneborg",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Ann-Christin Johansson",
+    "member": false
+   }
+  ],
+  "venue": "Persuasive Technology XII, 2017 (Pers Tech 2017), Amsterdam",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1168168"
+ },
+ {
+  "id": "diva2:1056453",
+  "type": "Conference paper",
+  "year": 2017,
+  "title": "Towards Collaborative Adaptive Autonomous Agents",
+  "authors": [
+   {
+    "name": "Mirgita Frasheri",
+    "member": false
+   },
+   {
+    "name": "Baran Cürüklü",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "ICAART : PROCEEDINGS OF THE 9TH INTERNATIONAL CONFERENCE ON AGENTS AND ARTIFICIAL INTELLIGENCE, VOL 1",
+  "doi": "10.5220/0006195500780087",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1056453"
+ },
+ {
+  "id": "diva2:1056587",
+  "type": "Conference paper",
+  "year": 2016,
+  "title": "A genetic planner for mission planning of cooperative agents in an underwater environment",
+  "authors": [
+   {
+    "name": "Branko Miloradovic",
+    "member": false
+   },
+   {
+    "name": "Baran Çürüklü",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "The 2016 IEEE Symposium Series on Computational Intelligence SSCI'16",
+  "doi": "10.1109/SSCI.2016.7850163",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1056587"
+ },
+ {
+  "id": "diva2:2050221",
+  "type": "Journal article",
+  "year": 2016,
+  "title": "An Adaptive Data-Enabled Policy Optimization Approach for Autonomous Bicycle Control",
+  "authors": [
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Feiran Zhao",
+    "member": false
+   },
+   {
+    "name": "Mojtaba Kaheni",
+    "member": false
+   },
+   {
+    "name": "Florian Dorfler",
+    "member": false
+   },
+   {
+    "name": "Alessandro V. Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "IEEE Transactions on Control Systems Technology",
+  "doi": "10.1109/TCST.2026.3673360",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2050221"
+ },
+ {
+  "id": "diva2:881496",
+  "type": "Journal article",
+  "year": 2016,
+  "title": "Development and Evaluation of Algorithms for Breath Alcohol Screening",
+  "authors": [
+   {
+    "name": "Jonas Ljungblad",
+    "member": false
+   },
+   {
+    "name": "Bertil Hök",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Sensors",
+  "doi": "10.3390/s16040469",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:881496"
+ },
+ {
+  "id": "diva2:1048909",
+  "type": "Conference paper",
+  "year": 2016,
+  "title": "Experimental Comparison Study of UWB Technologies for Static Human Detection",
+  "authors": [
+   {
+    "name": "Melika Hozhabri",
+    "member": false
+   },
+   {
+    "name": "Magnus Otterskog",
+    "member": false
+   },
+   {
+    "name": "Nikola Petrović",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   }
+  ],
+  "venue": "IEEE International Conference on Ubiquitous Wireless Broadband (ICUWB 2016) ICUWB 2016",
+  "doi": "10.1109/ICUWB.2016.7790572",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1048909"
+ },
+ {
+  "id": "diva2:930459",
+  "type": "Conference paper",
+  "year": 2016,
+  "title": "Walking Intensity Estimation with a Portable Pedobarography System",
+  "authors": [
+   {
+    "name": "Per Anders Rickard Hellstrom",
+    "member": false
+   },
+   {
+    "name": "Anna Åkerberg",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Mia Folke",
+    "member": false
+   }
+  ],
+  "venue": "Studies in Health Technology and Informatics",
+  "doi": "10.3233/978-1-61499-653-8-27",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:930459"
+ },
+ {
+  "id": "diva2:927816",
+  "type": "Book",
+  "year": 2015,
+  "title": "GIMME2 - An embedded system for stereo vision and processing of megapixel images with FPGA-acceleration",
+  "authors": [
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   }
+  ],
+  "venue": "2015 International Conference on ReConFigurable Computing and FPGAs, ReConFig 2015",
+  "doi": "10.1109/ReConFig.2015.7393318",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:927816"
+ },
+ {
+  "id": "diva2:796536",
+  "type": "Conference paper",
+  "year": 2015,
+  "title": "High-speed segmentation-driven high-resolution matching",
+  "authors": [
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   }
+  ],
+  "venue": "Proceedings of SPIE - The International Society for Optical Engineering, vol. 9445",
+  "doi": "10.1117/12.2181365",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:796536"
+ },
+ {
+  "id": "diva2:868741",
+  "type": "Conference paper",
+  "year": 2015,
+  "title": "Intelligent Wireless Body Area Network System for Human Motion Analysis",
+  "authors": [
+   {
+    "name": "Per Anders Rickard Hellstrom",
+    "member": false
+   },
+   {
+    "name": "Lennie Carlén Eriksson",
+    "member": true
+   },
+   {
+    "name": "Jonatan Scharff Willners",
+    "member": false
+   },
+   {
+    "name": "Mia Folke",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   }
+  ],
+  "venue": "SPWID 2015, The First International Conference on SmartPortable, Wearable, Implantable and Disability-oriented Devices andSystems",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:868741"
+ },
+ {
+  "id": "diva2:868706",
+  "type": "Conference paper",
+  "year": 2015,
+  "title": "Wearable Weight Estimation System",
+  "authors": [
+   {
+    "name": "Per Anders Rickard Hellstrom",
+    "member": false
+   },
+   {
+    "name": "Mia Folke",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Procedia Computer Science, vol. 64",
+  "doi": "10.1016/j.procs.2015.08.475",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:868706"
+ },
+ {
+  "id": "diva2:881464",
+  "type": "Conference paper",
+  "year": 2014,
+  "title": "Critical Performance of a New Breath Alcohol Analyzer for Screening Applications",
+  "authors": [
+   {
+    "name": "Jonas Ljungblad",
+    "member": false
+   },
+   {
+    "name": "Bertil Hök",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP), 2014 IEEE Ninth International Conference on",
+  "doi": "10.1109/ISSNIP.2014.6827626",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:881464"
+ },
+ {
+  "id": "diva2:1182182",
+  "type": "Conference paper",
+  "year": 2014,
+  "title": "Towards an Embedded Real-Time High Resolution Vision System",
+  "authors": [
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   }
+  ],
+  "venue": "ADVANCES IN VISUAL COMPUTING (ISVC 2014), PT II",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1182182"
+ },
+ {
+  "id": "diva2:818245",
+  "type": "Journal article",
+  "year": 2014,
+  "title": "Unobtrusive and Highly Accurate Breath Alcohol Analysis Enabled by Improved Methodology and Technology",
+  "authors": [
+   {
+    "name": "Bertil Hök",
+    "member": false
+   },
+   {
+    "name": "Jonas Ljungblad",
+    "member": false
+   },
+   {
+    "name": "Annika Kaisdotter Andersson (Jonsson)",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Mats Enlund",
+    "member": false
+   }
+  ],
+  "venue": "Journal of Forensic Investigation",
+  "doi": "10.13188/2330-0396.1000016",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:818245"
+ },
+ {
+  "id": "diva2:623032",
+  "type": "Conference paper",
+  "year": 2013,
+  "title": "An embedded stereo vision module for industrial vehicles automation",
+  "authors": [
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   },
+   {
+    "name": "Jörgen Lidholm",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   }
+  ],
+  "venue": "Proceedings of the IEEE International Conference on Industrial Technology",
+  "doi": "10.1109/ICIT.2013.6505647",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:623032"
+ },
+ {
+  "id": "diva2:722203",
+  "type": "Report",
+  "year": 2013,
+  "title": "The Black Pearl: An Autonomous Underwater Vehicle",
+  "authors": [
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   },
+   {
+    "name": "Gabriel Campeanu",
+    "member": false
+   },
+   {
+    "name": "Federico Ciccozzi",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Juraj Feljan",
+    "member": false
+   },
+   {
+    "name": "Andreas Gustavsson",
+    "member": false
+   },
+   {
+    "name": "Séverine Sentilles",
+    "member": false
+   },
+   {
+    "name": "Ivan Svogor",
+    "member": false
+   },
+   {
+    "name": "Emil Segerblad",
+    "member": false
+   }
+  ],
+  "venue": "",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:722203"
+ },
+ {
+  "id": "diva2:574587",
+  "type": "PhD thesis",
+  "year": 2013,
+  "title": "Towards Predictable and Reliable Wireless Communication in Harsh Environments",
+  "authors": [
+   {
+    "name": "Martin Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Mälardalen University",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:574587"
+ },
+ {
+  "id": "diva2:462050",
+  "type": "Journal article",
+  "year": 2012,
+  "title": "A Bluetooth Radio Energy Consumption Model for Low Duty-Cycle Applications",
+  "authors": [
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Marcus Bergblomma",
+    "member": false
+   },
+   {
+    "name": "Maria Lindén",
+    "member": false
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "IEEE Transactions on Instrumentation and Measurement",
+  "doi": "10.1109/TIM.2011.2172997",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:462050"
+ },
+ {
+  "id": "diva2:579793",
+  "type": "Conference paper",
+  "year": 2012,
+  "title": "A smart-phone based monitoring system with health device profile",
+  "authors": [
+   {
+    "name": "Gregory Koshmak",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Maria Lindén",
+    "member": false
+   }
+  ],
+  "venue": "Medicinteknikdagarna 2012, 2-3 oktober, Lund",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:579793"
+ },
+ {
+  "id": "diva2:579794",
+  "type": "Conference paper",
+  "year": 2012,
+  "title": "A smart-Phone Based Monitoring System with Health Device Profile for Measuring Vital Physiological parameters",
+  "authors": [
+   {
+    "name": "Gregory Koshmak",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Maria Lindén",
+    "member": false
+   }
+  ],
+  "venue": "World Congress on Medical Physics and Biomedical Engineering, Beijing, China, May 26-31, 2012",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:579794"
+ },
+ {
+  "id": "diva2:532924",
+  "type": "Conference paper",
+  "year": 2012,
+  "title": "A wireless low latency control system for harsh environments",
+  "authors": [
+   {
+    "name": "Marcus Bergblomma",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Christer Gerdtman",
+    "member": false
+   },
+   {
+    "name": "Maria Lindén",
+    "member": false
+   }
+  ],
+  "venue": "IFAC Proceedings Volumes (IFAC-PapersOnline) : Vol. 11, PART 1",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:532924"
+ },
+ {
+  "id": "diva2:441066",
+  "type": "Conference paper",
+  "year": 2012,
+  "title": "Utilization and Performance Considerations in Resource Optimized Stereo Matching for Real-Time Reconfigurable Hardware",
+  "authors": [
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   },
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   }
+  ],
+  "venue": "VISAPP 2012 - Proceedings of the International Conference on Computer Vision Theory and Application, vol. 2",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:441066"
+ },
+ {
+  "id": "diva2:466146",
+  "type": "Conference paper",
+  "year": 2011,
+  "title": "An Embedded Stereo Vision Module for 6D Pose Estimation and Mapping",
+  "authors": [
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   },
+   {
+    "name": "Jörgen Lidholm",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   }
+  ],
+  "venue": "Proceedings of the IEEE international conference on Intelligent Robots and Systems IROS2011",
+  "doi": "10.1109/IROS.2011.6048395",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:466146"
+ },
+ {
+  "id": "diva2:466119",
+  "type": "Conference paper",
+  "year": 2011,
+  "title": "GIMME - A General Image Multiview Manipulation Engine",
+  "authors": [
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Jörgen Lidholm",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   }
+  ],
+  "venue": "Proceedings of the International Conference on ReConFigurable Computing and FPGAs (ReConFig 2011)",
+  "doi": "10.1109/ReConFig.2011.44",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:466119"
+ },
+ {
+  "id": "diva2:343256",
+  "type": "Journal article",
+  "year": 2011,
+  "title": "Influence from breathing pattern on alcohol and tracer gas expirograms : Implications for alcolock use",
+  "authors": [
+   {
+    "name": "Annika Kaisdotter Andersson",
+    "member": false
+   },
+   {
+    "name": "Bertil Hök",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Göran Hedenstierna",
+    "member": false
+   }
+  ],
+  "venue": "Forensic Science International",
+  "doi": "10.1016/j.forsciint.2010.06.016",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:343256"
+ },
+ {
+  "id": "diva2:441053",
+  "type": "Conference paper",
+  "year": 2011,
+  "title": "Resource Limited Hardware-based Stereo Matching for High-Speed Vision System",
+  "authors": [
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   },
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   }
+  ],
+  "venue": "ICARA 2011 - Proceedings of the 5th International Conference on Automation, Robotics and Applications",
+  "doi": "10.1109/ICARA.2011.6144928",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:441053"
+ },
+ {
+  "id": "diva2:343257",
+  "type": "Journal article",
+  "year": 2010,
+  "title": "Improved breath alcohol analysis in patients with depressed consciousness",
+  "authors": [
+   {
+    "name": "Annika Kaisdotter Andersson",
+    "member": false
+   },
+   {
+    "name": "Bertil Hök",
+    "member": false
+   },
+   {
+    "name": "Daniel Rentsch",
+    "member": false
+   },
+   {
+    "name": "Gernot Ruecker",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "Medical and Biological Engineering and Computing",
+  "doi": "10.1007/s11517-010-0655-5",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:343257"
+ },
+ {
+  "id": "diva2:369222",
+  "type": "Book chapter",
+  "year": 2010,
+  "title": "Navigation in a box : Stereovision for industry automation",
+  "authors": [
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   },
+   {
+    "name": "Jörgen Lidholm",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": false
+   },
+   {
+    "name": "Carl Ahlberg",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   }
+  ],
+  "venue": "Advances in Theory and Applications of Stereo Vision",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:369222"
+ },
+ {
+  "id": "diva2:301904",
+  "type": "Conference paper",
+  "year": 2009,
+  "title": "Development of a breath alcohol analyzer for use on patients in emergency care",
+  "authors": [
+   {
+    "name": "Annika Kaisdotter Andersson (Jonsson)",
+    "member": false
+   },
+   {
+    "name": "Bertil Hök",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "IFMBE Proceedings, vol. 25, no. 1",
+  "doi": "10.1007/978-3-642-03891-4_23",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:301904"
+ },
+ {
+  "id": "diva2:301698",
+  "type": "Conference paper",
+  "year": 2009,
+  "title": "Reliable Wireless ECG Sensor Network",
+  "authors": [
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Marcus Berglomma",
+    "member": false
+   }
+  ],
+  "venue": "Medicinteknikdagarna, Västerås, 2009",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:301698"
+ },
+ {
+  "id": "diva2:369226",
+  "type": "Conference paper",
+  "year": 2009,
+  "title": "Wireless ECG network",
+  "authors": [
+   {
+    "name": "Marcus Bergblomma",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Javier Garcia Castaño",
+    "member": false
+   },
+   {
+    "name": "Mats Björkman",
+    "member": false
+   },
+   {
+    "name": "Maria Lindén",
+    "member": false
+   }
+  ],
+  "venue": "WORLD CONGRESS ON MEDICAL PHYSICS AND BIOMEDICAL ENGINEERING, VOL 25, PT 5",
+  "doi": "10.1007/978-3-642-03904-1_68",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:369226"
+ },
+ {
+  "id": "diva2:237241",
+  "type": "Conference paper",
+  "year": 2008,
+  "title": "Bluetooth energy characteristics in wireless sensor networks",
+  "authors": [
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Marcus Blom",
+    "member": false
+   },
+   {
+    "name": "Javier Garcia Castaño",
+    "member": false
+   },
+   {
+    "name": "Maria Lindén",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "2008 3RD INTERNATIONAL SYMPOSIUM ON WIRELESS PERVASIVE COMPUTING, VOLS 1-2",
+  "doi": "10.1109/ISWPC.2008.4556196",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:237241"
+ },
+ {
+  "id": "diva2:1816613",
+  "type": "Journal article",
+  "year": 2005,
+  "title": "Modelling of an electroacoustic gas sensor",
+  "authors": [
+   {
+    "name": "Fredrik Granstedt",
+    "member": false
+   },
+   {
+    "name": "Mia Folke",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "B. Hök",
+    "member": false
+   },
+   {
+    "name": "Ylva Bäcklund",
+    "member": false
+   }
+  ],
+  "venue": "Sensors and Actuators B: Chemical",
+  "doi": "10.1016/j.snb.2004.05.026",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1816613"
+ },
+ {
+  "id": "diva2:369142",
+  "type": "Conference paper",
+  "year": 2005,
+  "title": "Monitoring health and activity by smartwear",
+  "authors": [
+   {
+    "name": "Lena Berglin",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Maria Lindén",
+    "member": false
+   }
+  ],
+  "venue": "13th Nordic Baltic Conference on Biomedical Engineering and Medical Physics, 13-17 June, 2005, pp 251-252, Umeå, Sweden",
+  "doi": null,
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:369142"
+ },
+ {
+  "id": "diva2:121029",
+  "type": "Conference paper",
+  "year": 2004,
+  "title": "End tidal carbon dioxide measurement using an electro acoustic sensor",
+  "authors": [
+   {
+    "name": "Mia Folke",
+    "member": false
+   },
+   {
+    "name": "Bertil Hök",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Ylva Bäcklund",
+    "member": false
+   }
+  ],
+  "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology - Proceedings",
+  "doi": "10.1109/IEMBS.2004.1403969",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:121029"
+ },
+ {
+  "id": "diva2:120834",
+  "type": "Conference paper",
+  "year": 2004,
+  "title": "Optimization of wireless Bluetooth",
+  "authors": [
+   {
+    "name": "Jens Lönnblad",
+    "member": false
+   },
+   {
+    "name": "J.G Castano",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Maria Lindén",
+    "member": false
+   },
+   {
+    "name": "Ylva Bäcklund",
+    "member": false
+   }
+  ],
+  "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology - ProceedingsVolume 26 III",
+  "doi": "10.1109/IEMBS.2004.1403625",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:120834"
+ },
+ {
+  "id": "diva2:121026",
+  "type": "Journal article",
+  "year": 2003,
+  "title": "Critical review of non-invasive respiratory monitoring in medical care",
+  "authors": [
+   {
+    "name": "Mia Folke",
+    "member": false
+   },
+   {
+    "name": "Lars Cernerud",
+    "member": false
+   },
+   {
+    "name": "Martin Ekström",
+    "member": true
+   },
+   {
+    "name": "Bertil Hök",
+    "member": false
+   }
+  ],
+  "venue": "Medical & Biological Engineering & Computing",
+  "doi": "10.1007/BF02348078",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:121026"
+ },
+ {
+  "id": "diva2:120833",
+  "type": "Conference paper",
+  "year": 2003,
+  "title": "Wireless industrial sensor monitoring based on Bluetooth<sup>TM</sup>",
+  "authors": [
+   {
+    "name": "Javier Garcia Castano",
+    "member": false
+   },
+   {
+    "name": "J. Andreasson",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "H. Wrzesniewski",
+    "member": false
+   },
+   {
+    "name": "H. Ahlbom",
+    "member": false
+   },
+   {
+    "name": "Ylva Bäcklund",
+    "member": false
+   }
+  ],
+  "venue": "INDIN 2003: IEEE INTERNATIONAL CONFERENCE ON INDUSTRIAL INFORMATICS, PROCEEDINGS",
+  "doi": "10.1109/INDIN.2003.1300205",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:120833"
+ },
+ {
+  "id": "diva2:369239",
+  "type": "Journal article",
+  "year": 2001,
+  "title": "Antiferromagnetism in Zn-doped La<sub>2</sub>CuO<sub>4</sub> as observed by muon spin resonance spectroscopy",
+  "authors": [
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   },
+   {
+    "name": "Ola Hartmann",
+    "member": false
+   },
+   {
+    "name": "Erik Karlsson",
+    "member": false
+   },
+   {
+    "name": "Erik Lidström",
+    "member": false
+   },
+   {
+    "name": "Per Granberg",
+    "member": false
+   },
+   {
+    "name": "M Nygren",
+    "member": false
+   }
+  ],
+  "venue": "Physical Review B - Condensed Matter and Materials Physics",
+  "doi": "10.1103/PhysRevB.64.184522",
+  "url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:369239"
+ }
+]

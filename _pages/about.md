@@ -4,8 +4,16 @@ label: "Who we are"
 permalink: /about/
 ---
 
-<!-- TODO: lab history, PI, members, how to contact us / open positions -->
+<!-- TODO: lab history, research focus, how to contact us / open positions -->
 
 ## People
 
-- **Name** – role
+<ul class="people">
+{% for p in site.data.people.members %}
+  <li class="person">
+    <a class="person__name" href="{{ p.url }}">{{ p.name }}</a>
+    <span class="person__role">{{ p.role }}</span>
+    {% if p.orcid %}<a class="person__link" href="https://orcid.org/{{ p.orcid }}">ORCID</a>{% endif %}
+  </li>
+{% endfor %}
+</ul>

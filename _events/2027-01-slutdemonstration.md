@@ -8,6 +8,6 @@ excerpt: "De sex studentgrupperna i projektkursen visar sina robotar."
 
 De sex studentgrupperna i projektkursen i robotik och intelligenta inbyggda
 system visar vad de har byggt under hösten. Läs mer om projekten på
-[projektsidan](/projects/).
+[projektsidan](/student-projects/).
 
 <!-- TODO: program, registration link, etc. -->
