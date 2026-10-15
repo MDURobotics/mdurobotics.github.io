@@ -3,11 +3,14 @@ title: "Roboten som klarar att nätet går ner"
 excerpt: "Vad ska en AI-styrd robot göra när internet försvinner mitt i jobbet?"
 order: 2
 subjects: [Programmering, Teknik]
+facts:
+  - label: "Robot"
+    value: "ABB YuMi som plockar disk"
+  - label: "Partner"
+    value: "Westermo och Arcticus Systems, företag inom industriella nätverk och inbyggda system"
+  - label: "Mål"
+    value: "Byta till reservläge inom 5 s och stanna säkert inom 10 s"
 ---
-
-| **Robot** | ABB YuMi som plockar disk |
-| **Partner** | Westermo och Arcticus Systems, företag inom industriella nätverk och inbyggda system |
-| **Mål** | Byta till reservläge inom 5 s och stanna säkert inom 10 s |
 
 ## Problemet
 
@@ -24,12 +27,13 @@ Stora AI-modeller körs ofta på kraftfulla servrar någonstans i molnet. Det fu
 
 ## Så funkar den
 
-- **Känna:** En kamera tittar ovanifrån på disken. Samtidigt övervakar systemet hela tiden om AI-tjänsterna svarar.
-- **Tänka:** Den bästa AI-modell som är tillgänglig räknar ut var koppen står och hur den är vriden. Svarar ingen modell får roboten inte gissa.
-- **Göra:** Roboten plockar disken, långsammare om den kör i reservläge, eller stannar säkert.
+- **Känna** En kamera tittar ovanifrån på disken. Samtidigt övervakar systemet hela tiden om AI-tjänsterna svarar.
+- **Planera** Den bästa AI-modell som är tillgänglig räknar ut var koppen står och hur den är vriden. Svarar ingen modell får roboten inte gissa.
+- **Agera** Roboten plockar disken, långsammare om den kör i reservläge, eller stannar säkert.
+{: .sta}
 
 **Det handlar också om säkerhet.** Forskare har visat att industrirobotar ibland tar emot rörelsekommandon över nätverket utan att kontrollera dem. Gruppen gör därför en hotanalys: vad kan en angripare göra, och hur stoppar man det? Ett skydd är att roboten kontrollerar att koordinaterna den får är rimliga innan den rör sig.
-{: .notice--warning}
+{: .callout}
 
 ## Ord att kunna
 
@@ -38,4 +42,4 @@ Stora AI-modeller körs ofta på kraftfulla servrar någonstans i molnet. Det fu
 - **Hotmodell:** en systematisk lista över hur ett system kan attackeras.
 
 **Fundera på:** Vilka andra saker i din vardag borde fungera även utan internet? Hur gör till exempel en kartapp när du tappar täckning?
-{: .notice--info}
+{: .ask}

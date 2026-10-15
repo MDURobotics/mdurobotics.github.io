@@ -1,0 +1,5 @@
+<div class="loop" aria-label="How a robot works">
+  <div><h3><span class="n">1</span> {{ include.sense | default: "Sense" }}</h3><p>{{ include.sense_text | default: "Cameras, LiDAR, GPS and motion sensors collect information about the world." }}</p></div>
+  <div><h3><span class="n">2</span> {{ include.plan | default: "Plan" }}</h3><p>{{ include.plan_text | default: "A computer interprets the data and plans what to do next — often with AI." }}</p></div>
+  <div><h3><span class="n">3</span> {{ include.act | default: "Act" }}</h3><p>{{ include.act_text | default: "Motors move arms, wheels or propellers. Then the loop starts over." }}</p></div>
+</div>

@@ -1,15 +1,19 @@
 ---
 title: "Research"
+label: "What we work on"
 permalink: /research/
 ---
 
-<!-- TODO: replace with the lab's actual research areas -->
+<!-- TODO: an intro paragraph about the lab's research -->
 
-## Research area 1
+## AutoBike: autonomous bicycles
 
-Short description. Add an image or video:
-<!-- {% include video id="VIDEO_ID" provider="youtube" %} -->
+<!-- TODO: describe the AutoBike project -->
 
-## Research area 2
+{% include video.html id="fvzAXwSQFCo" title="AutoBike Collage" caption="AutoBike collage" %}
 
-Short description.
+## AutoSail: autonomous sailing
+
+<!-- TODO: describe the AutoSail project -->
+
+{% include video.html id="yLYkwLrZBl4" title="AutoSail 2022 – Panama Bay test" caption="AutoSail 2022, test in Panama Bay" %}

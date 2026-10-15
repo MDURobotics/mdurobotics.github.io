@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="wrap">
+  <header class="pagehead pagehead--tight">
+    <a class="label back" href="{{ '/projects/' | relative_url }}">← Alla projekt</a>
+  </header>
+  <article class="sheet">
+    <div class="sheet__side">
+      <span class="tag">Projekt {{ page.order }}</span>
+      <h1>{{ page.title }}</h1>
+      <p class="sheet__oneliner">{{ page.excerpt }}</p>
+      {% if page.facts %}
+      <dl class="facts">
+        {% for f in page.facts %}<div><dt>{{ f.label }}</dt><dd>{{ f.value }}</dd></div>{% endfor %}
+      </dl>
+      {% endif %}
+      {% if page.subjects %}
+      <div class="chips">{% for s in page.subjects %}<span>{{ s }}</span>{% endfor %}</div>
+      {% endif %}
+    </div>
+    <div class="sheet__main prose">
+      {{ content }}
+    </div>
+  </article>
+
+  {% assign projects = site.projects | sort: "order" %}
+  <nav class="pager" aria-label="Fler projekt">
+    {% for p in projects %}
+      {% if p.url == page.url %}
+        {% unless forloop.first %}{% assign i = forloop.index0 | minus: 1 %}{% assign prev = projects[i] %}<a href="{{ prev.url | relative_url }}"><span class="label">← Föregående</span>{{ prev.title }}</a>{% else %}<span></span>{% endunless %}
+        {% unless forloop.last %}{% assign next = projects[forloop.index] %}<a class="pager__next" href="{{ next.url | relative_url }}"><span class="label">Nästa →</span>{{ next.title }}</a>{% endunless %}
+      {% endif %}
+    {% endfor %}
+  </nav>
+</div>

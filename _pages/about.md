@@ -1,5 +1,6 @@
 ---
 title: "About us"
+label: "Who we are"
 permalink: /about/
 ---
 

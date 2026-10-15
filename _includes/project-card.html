@@ -1,0 +1,7 @@
+{% assign p = include.p %}
+<a class="card" href="{{ p.url | relative_url }}" data-subjects="{{ p.subjects | join: ' ' }}">
+  <span class="tag">Projekt {{ p.order }}</span>
+  <h3>{{ p.title }}</h3>
+  <p>{{ p.excerpt | strip_html }}</p>
+  {% if p.subjects %}<div class="chips">{% for s in p.subjects %}<span>{{ s }}</span>{% endfor %}</div>{% endif %}
+</a>

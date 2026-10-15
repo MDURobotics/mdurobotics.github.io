@@ -3,11 +3,14 @@ title: "TerraScout: terrängroboten"
 excerpt: "En obemannad terrängbil som ska utföra uppdrag på egen hand och ändra rutt när den upptäcker något på vägen."
 order: 6
 subjects: [Programmering, Matematik, Teknik]
+facts:
+  - label: "Robot"
+    value: "TerraScout, en fyrhjulig terrängrobot byggd av tidigare studenter"
+  - label: "Hemvist"
+    value: "SLaRC, MDU:s forskningscenter för markbaserad robotik"
+  - label: "Mål"
+    value: "Besöka fem punkter i bästa ordning och planera om rutten när den hittar hinder"
 ---
-
-| **Robot** | TerraScout, en fyrhjulig terrängrobot byggd av tidigare studenter |
-| **Hemvist** | SLaRC, MDU:s forskningscenter för markbaserad robotik |
-| **Mål** | Besöka fem punkter i bästa ordning och planera om rutten när den hittar hinder |
 
 ## Problemet
 
@@ -15,12 +18,13 @@ Robotar som kör ute i naturen används i jordbruk, gruvor och för övervakning
 
 ## Så funkar den
 
-- **Känna:** En LiDAR skannar omgivningen med laser, en djupkamera ser objekt, och en extra noggrann GPS anger position på centimeternivå.
-- **Tänka:** AI känner igen objekt och räknar ut var de står. Runt dem ritas en förbjuden zon på kartan. Programmet räknar fram i vilken ordning punkterna ska besökas och gör en ny plan om vägen blockeras.
-- **Göra:** Roboten kör rutten, fotograferar det den hittar och sparar allt i en logg. Den har nödstopp och en människa med fjärrkontroll kan alltid ta över.
+- **Känna** En LiDAR skannar omgivningen med laser, en djupkamera ser objekt, och en extra noggrann GPS anger position på centimeternivå.
+- **Planera** AI känner igen objekt och räknar ut var de står. Runt dem ritas en förbjuden zon på kartan. Programmet räknar fram i vilken ordning punkterna ska besökas och gör en ny plan om vägen blockeras.
+- **Agera** Roboten kör rutten, fotograferar det den hittar och sparar allt i en logg. Den har nödstopp och en människa med fjärrkontroll kan alltid ta över.
+{: .sta}
 
 **Ett klassiskt matteproblem.** Att hitta den kortaste vägen som besöker flera punkter kallas handelsresandeproblemet. Med fem punkter finns 120 möjliga ordningar, så en dator kan testa alla. Med 20 punkter finns över 2 miljarder miljarder ordningar, och då behövs smartare metoder.
-{: .notice--warning}
+{: .callout}
 
 ## Ord att kunna
 
@@ -29,4 +33,4 @@ Robotar som kör ute i naturen används i jordbruk, gruvor och för övervakning
 - **Omplanering:** att räkna fram en ny rutt medan roboten redan kör.
 
 **Fundera på:** Du ska handla på fem ställen i stan. Hur väljer du ordning? Skulle du och en dator välja samma väg?
-{: .notice--info}
+{: .ask}

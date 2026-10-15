@@ -1,0 +1,54 @@
+---
+layout: default
+title: "MDU Robotics"
+---
+<div class="wrap">
+  <section class="hero">
+    <span class="label">Mälardalens universitet · Västerås</span>
+    <h1>Robots that <mark>sense, plan</mark> and act.</h1>
+    <p class="lede">{{ site.description }}. <!-- TODO: one or two sentences about the lab's mission --></p>
+    <div class="actions">
+      <a class="btn" href="{{ '/research/' | relative_url }}">Our research</a>
+      <a class="btn btn--ghost" href="{{ '/projects/' | relative_url }}">Student projects →</a>
+    </div>
+  </section>
+
+  {% include loop.html %}
+
+  <!-- Team photo: put it in assets/images/ and uncomment
+  <figure class="photo"><img src="{{ '/assets/images/team.jpg' | relative_url }}" alt="The MDU Robotics team"></figure>
+  -->
+
+  <section class="section">
+    <div class="section__head">
+      <span class="label">In action</span>
+      <h2>Robots in the wild</h2>
+      <a class="more" href="{{ '/research/' | relative_url }}">Research →</a>
+    </div>
+    <div class="videos">
+      {% include video.html id="fvzAXwSQFCo" title="AutoBike Collage" caption="AutoBike — autonomous bicycles" %}
+      {% include video.html id="yLYkwLrZBl4" title="AutoSail 2022 – Panama Bay test" caption="AutoSail — test in Panama Bay, 2022" %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head">
+      <span class="label">Just nu</span>
+      <h2>Student projects</h2>
+      <a class="more" href="{{ '/projects/' | relative_url }}">All projects →</a>
+    </div>
+    <div class="cards">
+      {% assign projects = site.projects | sort: "order" %}
+      {% for p in projects limit: 3 %}{% include project-card.html p=p %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head">
+      <span class="label">Calendar</span>
+      <h2>Upcoming events</h2>
+      <a class="more" href="{{ '/events/' | relative_url }}">All events →</a>
+    </div>
+    {% include event-list.html when="upcoming" limit=3 %}
+  </section>
+</div>

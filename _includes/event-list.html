@@ -10,18 +10,21 @@
   {% assign events = site.events | sort: "date" %}
 {% endif %}
 {% assign shown = 0 %}
-<ul class="event-list">
+<ul class="events{% if include.when == 'past' %} events--past{% endif %}">
 {% for e in events %}
   {% assign d = e.date | date: "%Y-%m-%d" %}
   {% if include.when == "past" %}{% if d >= today %}{% continue %}{% endif %}
   {% else %}{% if d < today %}{% continue %}{% endif %}{% endif %}
   {% if include.limit and shown >= include.limit %}{% break %}{% endif %}
-  <li>
-    <strong>{{ e.date | date: "%-d %b %Y" }}</strong> –
-    <a href="{{ e.url | relative_url }}">{{ e.title }}</a>{% if e.location %} <small>({{ e.location }})</small>{% endif %}
-    {% if e.excerpt %}<br><small>{{ e.excerpt | strip_html | truncate: 160 }}</small>{% endif %}
+  <li class="event">
+    <time class="event__date" datetime="{{ d }}"><b>{{ e.date | date: "%-d" }}</b>{{ e.date | date: "%b %Y" }}</time>
+    <div class="event__body">
+      <a class="event__title" href="{{ e.url | relative_url }}">{{ e.title }}</a>
+      <p class="event__meta">{% if e.time %}{{ e.time }}{% endif %}{% if e.time and e.location %} · {% endif %}{{ e.location }}</p>
+      {% if e.excerpt %}<p class="event__text">{{ e.excerpt | strip_html | truncate: 180 }}</p>{% endif %}
+    </div>
   </li>
   {% assign shown = shown | plus: 1 %}
 {% endfor %}
 </ul>
-{% if shown == 0 %}<p><em>No {{ include.when | default: "upcoming" }} events.</em></p>{% endif %}
+{% if shown == 0 %}<p class="empty">No {{ include.when | default: "upcoming" }} events right now.</p>{% endif %}

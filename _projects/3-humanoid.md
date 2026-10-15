@@ -3,11 +3,14 @@ title: "KARIS: humanoid robot i fabriken"
 excerpt: "Kan en människoliknande robot göra ett vanligt fabriksjobb utan att man bygger om fabriken?"
 order: 3
 subjects: [Programmering, Matematik, Fysik, Teknik]
+facts:
+  - label: "Robot"
+    value: "Unitree G1, en humanoid robot med händer som kan greppa"
+  - label: "Partner"
+    value: "Volvo"
+  - label: "Mål"
+    value: "Plocka rätt delar till en monteringsbricka, både på ett tomt och ett stökigt bord"
 ---
-
-| **Robot** | Unitree G1, en humanoid robot med händer som kan greppa |
-| **Partner** | Volvo |
-| **Mål** | Plocka rätt delar till en monteringsbricka, både på ett tomt och ett stökigt bord |
 
 ## Problemet
 
@@ -15,12 +18,13 @@ Fabriker är byggda för människor: hyllor i rätt höjd, verktyg för händer,
 
 ## Så funkar den
 
-- **Känna:** Robotens kamera ser bordet. AI känner igen vilka delar som ligger där och om någon del är okänd.
-- **Tänka:** En annan AI-modell räknar ut exakt var varje del ligger och hur den är vriden i alla riktningar. Sedan räknar programmet ut hur varje led i armen ska vinklas för att handen ska hamna rätt, utan att krocka med något.
-- **Göra:** Handen greppar delen, armen flyttar den och lägger den i rätt fack i brickan. Här kommer fysiken in: handen måste trycka så hårt att friktionen håller kvar delen, men inte så hårt att den skadas. Och när armen accelererar påverkar både delens och armens egen massa hur mycket kraft motorerna behöver.
+- **Känna** Robotens kamera ser bordet. AI känner igen vilka delar som ligger där och om någon del är okänd.
+- **Planera** En annan AI-modell räknar ut exakt var varje del ligger och hur den är vriden i alla riktningar. Sedan räknar programmet ut hur varje led i armen ska vinklas för att handen ska hamna rätt, utan att krocka med något.
+- **Agera** Handen greppar delen, armen flyttar den och lägger den i rätt fack i brickan. Här kommer fysiken in: handen måste trycka så hårt att friktionen håller kvar delen, men inte så hårt att den skadas. Och när armen accelererar påverkar både delens och armens egen massa hur mycket kraft motorerna behöver.
+{: .sta}
 
 **Varför är det svårt?** Förra året klarade ett examensarbete samma uppgift, men långsamt och inte varje gång. I år låter gruppen AI sköta det roboten *ser*, men programmerar själva rörelserna mer exakt. Målet på längre sikt är att roboten ska vara ungefär lika snabb som en människa.
-{: .notice--warning}
+{: .callout}
 
 ## Ord att kunna
 
@@ -30,4 +34,4 @@ Fabriker är byggda för människor: hyllor i rätt höjd, verktyg för händer,
 - **Dynamik:** läran om hur krafter påverkar rörelse, till exempel hur mycket motorerna måste orka för att flytta armen snabbt men mjukt.
 
 **Fundera på:** Är det smartare att bygga robotar som liknar människor, eller att bygga om arbetsplatser för robotar? Vad talar för och emot?
-{: .notice--info}
+{: .ask}

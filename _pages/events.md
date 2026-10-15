@@ -1,9 +1,9 @@
 ---
 title: "Events"
 permalink: /events/
+label: "Calendar"
+lede: "Seminars, demos, competitions and other events from MDU Robotics."
 ---
-
-Seminars, demos, competitions and other events from MDU Robotics.
 
 ## Upcoming
 

@@ -1,35 +1,17 @@
 title: "MDU Robotics"
 description: "Robotics research at Mälardalen University"
+tagline: "Robots that sense, plan and act — built at Mälardalen University."
 url: "https://mdurobotics.github.io"
 baseurl: ""
-locale: "en-US"
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-search: true
-
-repository: "mdurobotics/mdurobotics.github.io"
-
-author:
-  name: "MDU Robotics"
-  avatar: # "/assets/images/logo.png"
-  bio: "Robotics research at Mälardalen University"
-  location: "Västerås, Sweden"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mdurobotics"
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mdurobotics"
-
-include:
-  - _pages
+lang: "en"
+github: "https://github.com/mdurobotics"
+location: "Västerås, Sweden"
 
 # Events are dated in the future; without this Jekyll skips them
 future: true
+
+include:
+  - _pages
 
 collections:
   projects:
@@ -40,29 +22,31 @@ collections:
     permalink: /events/:name/
 
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 defaults:
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: page
   - scope:
       path: ""
       type: projects
     values:
-      layout: single
-      author_profile: false
-      locale: "sv-SE"
+      layout: project
+      lang: "sv"
   - scope:
       path: ""
       type: events
     values:
       layout: event
-      author_profile: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - serve.sh

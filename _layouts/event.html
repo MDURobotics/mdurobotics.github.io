@@ -1,10 +1,17 @@
 ---
-layout: single
+layout: default
 ---
-
-<p class="page__meta">
-  <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%-d %B %Y" }}{% if page.time %}, {{ page.time }}{% endif %}
-  {% if page.location %}<br><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ page.location }}{% endif %}
-</p>
-
-{{ content }}
+<div class="wrap">
+  <header class="pagehead">
+    <a class="label back" href="{{ '/events/' | relative_url }}">← Events</a>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <dl class="facts facts--inline">
+    <div><dt>Date</dt><dd>{{ page.date | date: "%-d %B %Y" }}</dd></div>
+    {% if page.time %}<div><dt>Time</dt><dd>{{ page.time }}</dd></div>{% endif %}
+    {% if page.location %}<div><dt>Where</dt><dd>{{ page.location }}</dd></div>{% endif %}
+  </dl>
+  <div class="prose">
+    {{ content }}
+  </div>
+</div>
