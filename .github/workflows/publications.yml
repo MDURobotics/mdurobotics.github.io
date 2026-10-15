@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - _data/people.yml
+      - _data/publications_extra.yml
       - scripts/fetch_publications.py
 
 permissions:

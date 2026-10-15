@@ -9,7 +9,7 @@ layout: default
   <header class="pagehead">
     <span class="label">Papers</span>
     <h1>Publications</h1>
-    <p class="lede">{{ pubs.size }} publications by members of MDU Robotics, synced weekly from <a href="https://mdu.diva-portal.org">DiVA</a>.</p>
+    <p class="lede">{{ pubs.size }} publications by members of MDU Robotics, including PhD and licentiate theses they supervised. Synced weekly from <a href="https://mdu.diva-portal.org">DiVA</a>.</p>
   </header>
 
   {% if pubs.size > 0 %}
@@ -31,9 +31,12 @@ layout: default
       {% for p in y.items %}
         <li class="pub" data-type="{{ p.type }}">
           <span class="pub__type">{{ p.type }}</span>
-          <a class="pub__title" href="{% if p.doi %}https://doi.org/{{ p.doi }}{% else %}{{ p.url }}{% endif %}">{{ p.title }}</a>
+          {% if p.doi %}{% assign link = "https://doi.org/" | append: p.doi %}{% else %}{% assign link = p.url | default: p.diva_url %}{% endif %}
+          {% if link %}<a class="pub__title" href="{{ link }}">{{ p.title }}</a>{% else %}<span class="pub__title">{{ p.title }}</span>{% endif %}
           <p class="pub__authors">{% for a in p.authors %}{% if a.member %}<b>{{ a.name }}</b>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
-          <p class="pub__venue">{% if p.venue != "" %}<i>{{ p.venue }}</i> · {% endif %}<a href="{{ p.url }}">DiVA</a>{% if p.doi %} · <a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}</p>
+          {% if p.supervisors %}<p class="pub__authors">Supervised by {% for s in p.supervisors %}<b>{{ s }}</b>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
+          {% capture links %}{% if p.diva_url %}<a href="{{ p.diva_url }}">DiVA</a>{% endif %}{% if p.doi %}{% if p.diva_url %} · {% endif %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}{% endcapture %}
+          <p class="pub__venue">{% if p.venue != "" %}<i>{{ p.venue }}</i>{% if links != "" %} · {% endif %}{% endif %}{{ links }}</p>
         </li>
       {% endfor %}
       </ol>

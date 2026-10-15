@@ -1,0 +1,68 @@
+# Publications that DiVA is missing, or has without linking them to the
+# right person. Merged into the publications page by
+# scripts/fetch_publications.py.
+#
+# The real fix is in DiVA: register new publications there, and ask the
+# library to link existing records to the right person. Entries below are
+# then picked up automatically, and the script prints which ones can be
+# removed from this file.
+#
+# Point at an existing DiVA record:
+#   - diva: "diva2:1234567"
+# or describe the publication:
+#   - title: "Paper title"
+#     year: 2026
+#     type: "Conference paper"   # Journal article, Book chapter, Book, Report, PhD thesis, Licentiate thesis
+#     authors: ["First Author", "Second Author"]
+#     venue: "Conference or journal"
+#     doi: "10.xxxx/yyyy"        # optional
+#     url: "https://..."         # optional
+
+publications:
+  # In DiVA, but not linked to the member
+  - diva: "diva2:1669805"   # Autonomous UAS-based agriculture applications (Carl Ahlberg)
+
+  # In DiVA (diva2:120832) with Mikael Ekström missing from the authors
+  - title: "Remote system for patient monitoring using Bluetooth"
+    year: 2002
+    type: "Conference paper"
+    authors: ["J. Andreasson", "M. Ekström", "A. Fard", "J. G. Castaño", "T. Johnson"]
+    venue: "Proceedings of IEEE Sensors 2002, pp. 304–307"
+    url: "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:120832"
+
+  # Not in DiVA yet (details from Google Scholar)
+  - title: "STRIDE – Simulation Testbed for Real-Time In-Flight Deconfliction Experiments"
+    year: 2026
+    type: "Conference paper"   # TODO: check the type
+    authors: ["Lennie Carlén Eriksson", "Emil Persson", "Mikael Ekström", "Carl Ahlberg", "Baran Çürüklü"]
+    venue: "Drones and Unmanned Systems"
+  - title: "Personalized Control of a Robotic Arm: Toward BCI-Driven Neurorehabilitation"
+    year: 2026
+    type: "Conference paper"
+    authors: ["O. Ågren", "E. Åstrand", "M. Ekström"]
+    venue: "IEEE-EMBS International Conference on Body Sensor Networks (BSN 2026)"
+  - title: "Joint-Level Effects of Personalized Curvature-Based Robotic Arm Motion"
+    year: 2026
+    type: "Conference paper"
+    authors: ["O. Ågren", "E. Åstrand", "M. Ekström"]
+    venue: "IEEE-EMBS International Conference on Body Sensor Networks (BSN 2026)"
+  - title: "Local Positioning for Wireless Sensors Based on Bluetooth"
+    year: 2004
+    type: "Conference paper"
+    authors: ["J. G. Castaño", "M. Svensson", "M. Ekström"]
+    venue: "2004 IEEE Radio and Wireless Conference (RAWCON)"
+  - title: "Steps towards a minimal mobile wireless Bluetooth sensor"
+    year: 2004
+    type: "Conference paper"
+    authors: ["J. G. Castaño", "J. Lönnblad", "M. Svensson", "A. G. Castaño", "M. Ekström", "et al."]
+    venue: "ISA/IEEE Sensors for Industry Conference, 2004"
+  - title: "Artefact reduction in telemetric ECG monitoring"
+    year: 2002
+    type: "Conference paper"
+    authors: ["M. Folke", "J. Andreasson", "B. Hök", "M. Lindén", "G. Nilsson", "M. Ekström", "et al."]
+    venue: "12th Nordic-Baltic Conference on Biomedical Engineering and Medical Physics"
+  - title: "New CO2 sensor with high resolution and fast response"
+    year: 2001
+    type: "Conference paper"
+    authors: ["F. Granstedt", "B. Hök", "U. Bjurman", "M. Ekström", "Y. Bäcklund"]
+    venue: "23rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
