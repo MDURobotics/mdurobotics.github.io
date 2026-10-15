@@ -58,9 +58,10 @@ def parse_people(path):
     return people
 
 def parse_json(text):
-    """DiVA sometimes emits invalid escapes (e.g. a lone backslash in a title); double them."""
+    """Parse DiVA JSON, which sometimes has invalid escapes (a lone backslash in a
+    title) and raw control characters in strings."""
     fixed = re.sub(r'\\(["\\/bfnrtu])|\\', lambda m: m.group(0) if m.group(1) else "\\\\", text)
-    return json.loads(fixed)
+    return json.loads(fixed, strict=False)
 
 def fetch_person(diva_id):
     params = {
