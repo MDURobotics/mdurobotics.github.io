@@ -50,3 +50,4 @@ exclude:
   - vendor
   - README.md
   - serve.sh
+  - scripts

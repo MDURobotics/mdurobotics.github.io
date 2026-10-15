@@ -1,0 +1,73 @@
+---
+title: "Publications"
+permalink: /publications/
+layout: default
+---
+{% assign pubs = site.data.publications %}
+{% assign types = pubs | map: "type" | uniq | sort %}
+<div class="wrap">
+  <header class="pagehead">
+    <span class="label">Papers</span>
+    <h1>Publications</h1>
+    <p class="lede">{{ pubs.size }} publications by members of MDU Robotics, synced weekly from <a href="https://mdu.diva-portal.org">DiVA</a>.</p>
+  </header>
+
+  {% if pubs.size > 0 %}
+  <nav class="filter" aria-label="Filter publications">
+    <div class="filter__row" role="group" aria-label="Type">
+      <button type="button" data-t="all" aria-pressed="true">All</button>
+      {% for t in types %}<button type="button" data-t="{{ t }}" aria-pressed="false">{{ t }}</button>{% endfor %}
+    </div>
+    <input class="search" type="search" id="pub-search" placeholder="Search title, author or venue…" aria-label="Search publications">
+    <p class="filter__status" id="pub-status" aria-live="polite"></p>
+  </nav>
+
+  {% assign years = pubs | group_by: "year" %}
+  <div class="pubs">
+  {% for y in years %}
+    <section class="pubs__year" data-year>
+      <h2>{{ y.name | default: "Undated" }}</h2>
+      <ol class="publist">
+      {% for p in y.items %}
+        <li class="pub" data-type="{{ p.type }}">
+          <span class="pub__type">{{ p.type }}</span>
+          <a class="pub__title" href="{% if p.doi %}https://doi.org/{{ p.doi }}{% else %}{{ p.url }}{% endif %}">{{ p.title }}</a>
+          <p class="pub__authors">{% for a in p.authors %}{% if a.member %}<b>{{ a.name }}</b>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+          <p class="pub__venue">{% if p.venue != "" %}<i>{{ p.venue }}</i> · {% endif %}<a href="{{ p.url }}">DiVA</a>{% if p.doi %} · <a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}</p>
+        </li>
+      {% endfor %}
+      </ol>
+    </section>
+  {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty">No publications yet. Add lab members with their DiVA ids to <code>_data/people.yml</code>.</p>
+  {% endif %}
+</div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.filter button');
+  var search = document.getElementById('pub-search');
+  var status = document.getElementById('pub-status');
+  var items = document.querySelectorAll('.pub');
+  if (!items.length) return;
+  var type = 'all';
+  items.forEach(function (li) { li._text = li.textContent.toLowerCase(); });
+  function apply() {
+    var q = search.value.trim().toLowerCase(), hits = 0;
+    items.forEach(function (li) {
+      var ok = (type === 'all' || li.dataset.type === type) && (!q || li._text.indexOf(q) !== -1);
+      li.hidden = !ok;
+      if (ok) hits++;
+    });
+    document.querySelectorAll('[data-year]').forEach(function (s) {
+      s.hidden = !s.querySelector('.pub:not([hidden])');
+    });
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.t === type)); });
+    status.textContent = (type === 'all' && !q) ? '' : hits + ' of ' + items.length + ' publications';
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { type = b.dataset.t; apply(); }); });
+  search.addEventListener('input', apply);
+})();
+</script>

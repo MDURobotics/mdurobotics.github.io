@@ -1,0 +1,11 @@
+# Lab members. `diva` is the person's DiVA id: open their name in
+# https://mdu.diva-portal.org and copy the "personId" from the URL
+# (usually their MDU username, e.g. abc01). One person can have several
+# ids in DiVA; list all of them. Publications are fetched for everyone
+# here by scripts/fetch_publications.py.
+#
+# - name: "Firstname Lastname"
+#   role: "Professor"
+#   diva: ["abc01"]
+#   orcid: "0000-0000-0000-0000"   # optional
+members: []
