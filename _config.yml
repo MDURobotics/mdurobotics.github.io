@@ -28,6 +28,17 @@ footer:
 include:
   - _pages
 
+# Events are dated in the future; without this Jekyll skips them
+future: true
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  events:
+    output: true
+    permalink: /events/:name/
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -42,3 +53,16 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      locale: "sv-SE"
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+      author_profile: false

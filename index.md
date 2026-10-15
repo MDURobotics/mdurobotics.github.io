@@ -12,3 +12,9 @@ We are a robotics research group at Mälardalen University in Västerås, Sweden
 
 <!-- Demo video (replace the id): -->
 <!-- {% include video id="VIDEO_ID" provider="youtube" %} -->
+
+## Upcoming events
+
+{% include event-list.html when="upcoming" limit=3 %}
+
+[All events](/events/)

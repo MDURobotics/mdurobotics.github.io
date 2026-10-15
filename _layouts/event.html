@@ -1,0 +1,10 @@
+---
+layout: single
+---
+
+<p class="page__meta">
+  <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%-d %B %Y" }}{% if page.time %}, {{ page.time }}{% endif %}
+  {% if page.location %}<br><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ page.location }}{% endif %}
+</p>
+
+{{ content }}
