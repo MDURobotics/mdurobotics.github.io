@@ -3,7 +3,7 @@ title: "Robot som plockar in i diskmaskinen"
 excerpt: "En tvåarmad robot ska ställa in en kopp i diskmaskinskorgen på under tio sekunder."
 order: 1
 year: 2026
-builds_on: 2025-diskrobot
+builds_on: [2025-diskrobot]
 subjects: [Programmering, Matematik, Teknik, Fysik]
 facts:
   - label: "Robot"

@@ -3,7 +3,7 @@ title: "AURORA: armen som härmar dig"
 excerpt: "En robotarm för rehabiliteringsforskning som ska lära sig röra sig som en människa genom att titta på en."
 order: 4
 year: 2026
-builds_on: 2025-limb
+builds_on: [2025-limb]
 subjects: [Biologi, Fysik, Programmering, Teknik]
 facts:
   - label: "Robot"

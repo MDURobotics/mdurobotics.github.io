@@ -17,11 +17,11 @@ layout: default
       </dl>
       {% endif %}
       {% assign this_slug = page.slug %}
-      {% if page.builds_on %}{% assign prev_p = site.projects | where: "slug", page.builds_on | first %}{% endif %}
-      {% assign next_ps = site.projects | where: "builds_on", this_slug %}
-      {% if prev_p or next_ps.size > 0 %}
+      {% assign prev_ps = site.projects | where_exp: "p", "page.builds_on contains p.slug" %}
+      {% assign next_ps = site.projects | where_exp: "p", "p.builds_on contains this_slug" %}
+      {% if prev_ps.size > 0 or next_ps.size > 0 %}
       <div class="lineage">
-        {% if prev_p %}<p><span class="label">Fortsättning på</span> <a href="{{ prev_p.url | relative_url }}">{{ prev_p.title }}</a> (hösten {{ prev_p.year }})</p>{% endif %}
+        {% for p in prev_ps %}<p><span class="label">Fortsättning på</span> <a href="{{ p.url | relative_url }}">{{ p.title }}</a> (hösten {{ p.year }})</p>{% endfor %}
         {% for n in next_ps %}<p><span class="label">Fortsattes av</span> <a href="{{ n.url | relative_url }}">{{ n.title }}</a> (hösten {{ n.year }})</p>{% endfor %}
       </div>
       {% endif %}
