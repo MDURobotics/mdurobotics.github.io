@@ -5,8 +5,9 @@ Senast uppdaterad 2026-10-15. Se `README.md` för hur sajten är uppbyggd.
 
 ## Status
 
-- Allt är committat lokalt. **Inget är pushat**: GitHub-organisationen
-  `mdurobotics` finns inte än.
+- Tillfällig förhandsvisning (sedan 2026-11-03): repot `johanhjorth/mdurobotics`
+  → https://johanhjorth.github.io/mdurobotics/, byggs av `.github/workflows/pages.yml`.
+  Pusha via SSH (gh-token saknar `workflow`-scope). Organisationen `mdurobotics` finns inte än.
 - Publikationssidan har 130 poster från DiVA, handledda avhandlingar och
   `_data/publications_extra.yml`.
 
@@ -67,3 +68,18 @@ Senast uppdaterad 2026-10-15. Se `README.md` för hur sajten är uppbyggd.
 - Forskningsprojekt som egen samling under `/projects/`
 - Import av BibTeX-export från Scholar
 - Roll för Johan: står som "Lecturer" (adjunkt). Ändra i `_data/people.yml` vid behov.
+
+## Videor från studentgrupperna (väntar, beslut 2026-11-03)
+
+- Bädda **inte** in LinkedIn direkt: sätter cookies utan samtycke (GDPR) och saknar undertexter (WCAG 1.2.2).
+- Plan: be grupperna om originalfiler → MDU Play (play.mdu.se) eller YouTube via `youtube-nocookie` (`_includes/video.html`).
+  Alternativ: "klicka för att ladda"-ruta för LinkedIn-inlägg.
+- Tal i videon kräver undertexter. Utan tal räcker en textbeskrivning.
+
+## Tillgänglighet (lag 2018:1937, WCAG 2.2 AA)
+
+- Redogörelse på `/tillganglighet/`. Uppdatera datum och brister vid ändringar.
+- `accessibility_contact` i `_config.yml` måste fyllas i innan sajten blir officiell.
+- Testa: axe-core via puppeteer mot localhost (alla sidor, ljust + mörkt), reflow 320 px, tangentbord.
+- MDU-orange `#ff4800` bara till dekoration/stor text; `--signal-strong` bakom liten vit text, `--signal-on-dark` på grönt.
+

@@ -17,14 +17,15 @@ lang: "sv"
      plan_text="En dator tolkar datan och planerar vad som ska hända. Ofta med hjälp av AI."
      act_text="Motorer flyttar armar, hjul eller propellrar. Sedan börjar loopen om." %}
 
-  {% assign projects = site.projects | sort: "order" %}
+  {% assign projects = site.projects | where: "year", site.projects_current_year | sort: "order" %}
+  {% assign older = site.projects | where_exp: "p", "p.year < site.projects_current_year" | group_by: "year" | sort: "name" | reverse %}
   {% assign subjects = "" | split: "" %}
-  {% for p in projects %}{% assign subjects = subjects | concat: p.subjects %}{% endfor %}
+  {% for p in site.projects %}{% assign subjects = subjects | concat: p.subjects %}{% endfor %}
   {% assign subjects = subjects | uniq | sort %}
 
   <nav class="filter" aria-label="Filtrera på skolämne">
-    <span class="label">Vilka projekt hänger ihop med ditt ämne?</span>
-    <div class="filter__row" role="group">
+    <span class="label" id="filter-label">Vilka projekt hänger ihop med ditt ämne?</span>
+    <div class="filter__row" role="group" aria-labelledby="filter-label">
       <button type="button" data-s="alla" aria-pressed="true">Alla</button>
       {% for s in subjects %}<button type="button" data-s="{{ s }}" aria-pressed="false">{{ s }}</button>{% endfor %}
     </div>
@@ -36,6 +37,23 @@ lang: "sv"
   </div>
 
   <p class="fine">Beskrivningarna bygger på studentgruppernas projektplaner från september 2026. Projekten pågår till januari 2027 och målen kan ändras på vägen.</p>
+
+  {% if older.size > 0 %}
+  <section class="section archive" aria-labelledby="archive-title">
+    <div class="section__head">
+      <span class="label">Historik</span>
+      <h2 id="archive-title">Tidigare år</h2>
+    </div>
+    {% for y in older %}
+    <h3 class="archive__year">Hösten {{ y.name }}</h3>
+    <div class="cards cards--projects">
+      {% assign ps = y.items | sort: "order" %}
+      {% for p in ps %}{% include project-card.html p=p level=4 %}{% endfor %}
+    </div>
+    {% endfor %}
+    <p class="fine">Beskrivningarna av tidigare projekt bygger på gruppernas slutrapporter.</p>
+  </section>
+  {% endif %}
 </div>
 
 <script>
@@ -47,7 +65,7 @@ lang: "sv"
     var hits = 0;
     cards.forEach(function (c) {
       var match = subject === 'alla' || c.dataset.subjects.split(' ').indexOf(subject) !== -1;
-      c.classList.toggle('dim', !match);
+      c.hidden = !match;
       if (match) hits++;
     });
     buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.s === subject)); });

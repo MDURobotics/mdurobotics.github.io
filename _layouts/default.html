@@ -12,10 +12,12 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="topbar">
+  {% assign page_lang = page.lang | default: site.lang %}
+  {% if page_lang == "sv" %}{% assign chrome_lang = ' lang="en"' %}{% else %}{% assign chrome_lang = "" %}{% endif %}
+  <a class="skip" href="#main">{% if page_lang == "sv" %}Hoppa till innehållet{% else %}Skip to content{% endif %}</a>
+  <header class="topbar"{{ chrome_lang }}>
     <div class="wrap topbar__inner">
-      <a class="brand" href="{{ '/' | relative_url }}">MDU<span>Robotics</span></a>
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="MDU Robotics, home">MDU<span>Robotics</span></a>
       <nav class="nav" aria-label="Main">
         {% for item in site.data.navigation.main %}
           {% assign active = false %}
@@ -26,11 +28,11 @@
     </div>
   </header>
 
-  <main id="main">
+  <main id="main" tabindex="-1">
     {{ content }}
   </main>
 
-  <footer class="footer">
+  <footer class="footer"{{ chrome_lang }}>
     <div class="wrap footer__inner">
       <div>
         <p class="brand brand--footer">MDU<span>Robotics</span></p>
@@ -40,6 +42,7 @@
         {% for item in site.data.navigation.main %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
         <a href="{{ site.github }}">GitHub</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        <a href="{{ '/tillganglighet/' | relative_url }}" lang="sv">Tillgänglighet</a>
       </div>
     </div>
   </footer>

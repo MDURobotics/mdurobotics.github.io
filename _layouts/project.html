@@ -3,17 +3,27 @@ layout: default
 ---
 <div class="wrap">
   <header class="pagehead pagehead--tight">
-    <a class="label back" href="{{ '/student-projects/' | relative_url }}">← Alla projekt</a>
+    <a class="label back" href="{{ '/student-projects/' | relative_url }}"><span aria-hidden="true">←</span> Alla projekt</a>
   </header>
   <article class="sheet">
     <div class="sheet__side">
-      <span class="tag">Projekt {{ page.order }}</span>
+      <span class="tag">{% if page.year != site.projects_current_year %}Hösten {{ page.year }} · {% endif %}Projekt {{ page.order }}</span>
       <h1>{{ page.title }}</h1>
+      {% if page.team %}<p class="sheet__team"><span class="label">Gruppens namn</span> {{ page.team }}</p>{% endif %}
       <p class="sheet__oneliner">{{ page.excerpt }}</p>
       {% if page.facts %}
       <dl class="facts">
         {% for f in page.facts %}<div><dt>{{ f.label }}</dt><dd>{{ f.value }}</dd></div>{% endfor %}
       </dl>
+      {% endif %}
+      {% assign this_slug = page.slug %}
+      {% if page.builds_on %}{% assign prev_p = site.projects | where: "slug", page.builds_on | first %}{% endif %}
+      {% assign next_ps = site.projects | where: "builds_on", this_slug %}
+      {% if prev_p or next_ps.size > 0 %}
+      <div class="lineage">
+        {% if prev_p %}<p><span class="label">Fortsättning på</span> <a href="{{ prev_p.url | relative_url }}">{{ prev_p.title }}</a> (hösten {{ prev_p.year }})</p>{% endif %}
+        {% for n in next_ps %}<p><span class="label">Fortsattes av</span> <a href="{{ n.url | relative_url }}">{{ n.title }}</a> (hösten {{ n.year }})</p>{% endfor %}
+      </div>
       {% endif %}
       {% if page.subjects %}
       <div class="chips">{% for s in page.subjects %}<span>{{ s }}</span>{% endfor %}</div>
@@ -21,11 +31,29 @@ layout: default
     </div>
     <div class="sheet__main prose">
       {{ content }}
+      {% if page.updates %}
+      {% assign months_sv = "jan,feb,mar,apr,maj,jun,jul,aug,sep,okt,nov,dec" | split: "," %}
+      <section class="updates" aria-labelledby="updates-title">
+        <h2 id="updates-title">Senaste nytt från gruppen</h2>
+        <ul class="updates__list">
+          {% assign ups = page.updates | sort: "date" | reverse %}
+          {% for u in ups %}
+          {% assign m = u.date | date: "%-m" | minus: 1 %}
+          <li>
+            <time datetime="{{ u.date | date: '%Y-%m-%d' }}">{{ u.date | date: "%-d" }} {{ months_sv[m] }} {{ u.date | date: "%Y" }}</time>
+            <p>{{ u.text }}</p>
+            <a href="{{ u.url }}" hreflang="en">Läs inlägget på LinkedIn (på engelska)</a>
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="updates__note">Inläggen är skrivna av gruppen på LinkedIn. Sammanfattningarna här är våra.</p>
+      </section>
+      {% endif %}
     </div>
   </article>
 
-  {% assign projects = site.projects | sort: "order" %}
-  <nav class="pager" aria-label="Fler projekt">
+  {% assign projects = site.projects | where: "year", page.year | sort: "order" %}
+  <nav class="pager" aria-label="Fler projekt från hösten {{ page.year }}">
     {% for p in projects %}
       {% if p.url == page.url %}
         {% unless forloop.first %}{% assign i = forloop.index0 | minus: 1 %}{% assign prev = projects[i] %}<a href="{{ prev.url | relative_url }}"><span class="label">← Föregående</span>{{ prev.title }}</a>{% else %}<span></span>{% endunless %}

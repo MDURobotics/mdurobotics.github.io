@@ -2,6 +2,7 @@
 title: "Roboten som klarar att nätet går ner"
 excerpt: "Vad ska en AI-styrd robot göra när internet försvinner mitt i jobbet?"
 order: 2
+year: 2026
 subjects: [Programmering, Teknik]
 facts:
   - label: "Robot"
@@ -10,6 +11,17 @@ facts:
     value: "Westermo och Arcticus Systems, företag inom industriella nätverk och inbyggda system"
   - label: "Mål"
     value: "Byta till reservläge inom 5 s och stanna säkert inom 10 s"
+team: "H.E.R.B."
+updates:
+  - date: 2026-10-27
+    text: "Kameran hittar koppen och roboten rör sig dit på egen hand. Rörelsen är fortfarande lite ryckig, så nästa steg är att göra den mjukare."
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7520770687280787458/"
+  - date: 2026-10-23
+    text: "Gruppen vann hackathonet HackFactory hos MITC. Utmaningen från Alfa Laval var att göra om gamla 2D-ritningar till 3D-modeller med AI som körs lokalt, utan molnet."
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7519343971609874432/"
+  - date: 2026-10-01
+    text: "Gruppen berättar om projektet, som görs tillsammans med Westermo: en robot som fortsätter plocka koppar även när nätverket går ner."
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7511404282605174784/"
 ---
 
 ## Problemet

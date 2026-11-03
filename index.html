@@ -33,12 +33,12 @@ title: "MDU Robotics"
 
   <section class="section">
     <div class="section__head">
-      <span class="label">Just nu</span>
+      <span class="label" lang="sv">Just nu</span>
       <h2>Student projects</h2>
       <a class="more" href="{{ '/student-projects/' | relative_url }}">All student projects →</a>
     </div>
     <div class="cards">
-      {% assign projects = site.projects | sort: "order" %}
+      {% assign projects = site.projects | where: "year", site.projects_current_year | sort: "order" %}
       {% for p in projects limit: 3 %}{% include project-card.html p=p %}{% endfor %}
     </div>
   </section>

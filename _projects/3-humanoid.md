@@ -2,6 +2,7 @@
 title: "KARIS: humanoid robot i fabriken"
 excerpt: "Kan en människoliknande robot göra ett vanligt fabriksjobb utan att man bygger om fabriken?"
 order: 3
+year: 2026
 subjects: [Programmering, Matematik, Fysik, Teknik]
 facts:
   - label: "Robot"
@@ -10,6 +11,16 @@ facts:
     value: "Volvo"
   - label: "Mål"
     value: "Plocka rätt delar till en monteringsbricka, både på ett tomt och ett stökigt bord"
+updates:
+  - date: 2026-10-30
+    text: "Från att följa föremål till att greppa dem. Händer formade som en människas är svårare att plocka med än man tror."
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7521917906683686913/"
+  - date: 2026-10-29
+    text: "Objektigenkänning och rörelseplanering fungerar. Att koppla ihop dem med ett pålitligt grepp är den största utmaningen."
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7521516263634923520/"
+  - date: 2026-09-14
+    text: "Gruppen presenterade KARIS, en humanoid robot för plockning i industrin, och hur den ska testas i både verklig fabriksmiljö och i labbet."
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7505197405500510208/"
 ---
 
 ## Problemet

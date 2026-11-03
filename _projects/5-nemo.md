@@ -2,6 +2,7 @@
 title: "HMS N.E.M.O: båten som kör själv"
 excerpt: "Bygga en självkörande båt från grunden för att tävla i en internationell studenttävling."
 order: 5
+year: 2026
 subjects: [Fysik, Teknik, Programmering, Matematik]
 facts:
   - label: "Farkost"

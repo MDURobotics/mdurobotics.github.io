@@ -2,6 +2,8 @@
 title: "AURORA: armen som härmar dig"
 excerpt: "En robotarm för rehabiliteringsforskning som ska lära sig röra sig som en människa genom att titta på en."
 order: 4
+year: 2026
+builds_on: 2025-limb
 subjects: [Biologi, Fysik, Programmering, Teknik]
 facts:
   - label: "Robot"
@@ -10,6 +12,13 @@ facts:
     value: "Flera tidigare studentprojekt"
   - label: "Mål"
     value: "Spela in en människas armrörelse och låta roboten göra om den"
+updates:
+  - date: 2026-09-29
+    text: "Två rörelsesensorer och en kamera följer en människas arm i realtid och styr en simulerad robotarm. Nästa steg är att lägga till muskelsignaler (EMG)."
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7510705551060930560/"
+  - date: 2026-09-11
+    text: "Gruppen presenterade hur AURORA ska kombinera mekanik, sensorer, simulering och styrning, och hur armens förmåga att härma rörelser ska utvärderas."
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7504130680554012672/"
 ---
 
 ## Problemet

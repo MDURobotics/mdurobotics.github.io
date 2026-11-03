@@ -18,7 +18,8 @@ layout: default
       <button type="button" data-t="all" aria-pressed="true">All</button>
       {% for t in types %}<button type="button" data-t="{{ t }}" aria-pressed="false">{{ t }}</button>{% endfor %}
     </div>
-    <input class="search" type="search" id="pub-search" placeholder="Search title, author or venue…" aria-label="Search publications">
+    <label class="search__label" for="pub-search">Search publications</label>
+    <input class="search" type="search" id="pub-search" placeholder="Title, author or venue">
     <p class="filter__status" id="pub-status" aria-live="polite"></p>
   </nav>
 

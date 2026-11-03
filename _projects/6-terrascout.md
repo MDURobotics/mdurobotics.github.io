@@ -2,6 +2,7 @@
 title: "TerraScout: terrängroboten"
 excerpt: "En obemannad terrängbil som ska utföra uppdrag på egen hand och ändra rutt när den upptäcker något på vägen."
 order: 6
+year: 2026
 subjects: [Programmering, Matematik, Teknik]
 facts:
   - label: "Robot"

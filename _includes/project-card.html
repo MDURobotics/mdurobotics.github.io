@@ -1,7 +1,7 @@
 {% assign p = include.p %}
-<a class="card" href="{{ p.url | relative_url }}" data-subjects="{{ p.subjects | join: ' ' }}">
-  <span class="tag">Projekt {{ p.order }}</span>
-  <h3>{{ p.title }}</h3>
+<a class="card" href="{{ p.url | relative_url }}"{% if p.lang and p.lang != page.lang %} lang="{{ p.lang }}"{% endif %} data-subjects="{{ p.subjects | join: ' ' }}">
+  <span class="tag">{% if p.year != site.projects_current_year %}{{ p.year }}{% else %}Projekt {{ p.order }}{% endif %}</span>
+  {% assign hl = include.level | default: 3 %}<h{{ hl }}>{{ p.title }}</h{{ hl }}>
   <p>{{ p.excerpt | strip_html }}</p>
   {% if p.subjects %}<div class="chips">{% for s in p.subjects %}<span>{{ s }}</span>{% endfor %}</div>{% endif %}
 </a>

@@ -6,6 +6,10 @@ baseurl: ""
 lang: "en"
 github: "https://github.com/mdurobotics"
 location: "Västerås, Sweden"
+# Shown on /tillganglighet/ (required by lag 2018:1937). TODO: set before going public
+accessibility_contact: ""
+# Student projects from this year are shown first; older years go under "Tidigare år"
+projects_current_year: 2026
 
 # Events are dated in the future; without this Jekyll skips them
 future: true
@@ -43,6 +47,7 @@ defaults:
       type: events
     values:
       layout: event
+      lang: "sv"
 
 exclude:
   - Gemfile
