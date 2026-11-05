@@ -1,7 +1,7 @@
 title: "MDU Robotics"
 description: "Robotics research at Mälardalen University"
 tagline: "Robots that sense, plan and act — built at Mälardalen University."
-url: "https://johanhjorth.github.io"
+url: "https://mdurobotics.github.io"
 baseurl: ""
 lang: "en"
 # Dates and "today" are Swedish time (the build server runs in UTC)
