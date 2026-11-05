@@ -30,8 +30,9 @@
         </nav>
         <nav class="langswitch" aria-label="{{ t.switch_label }}">
           {% for l in site.data.i18n %}{% assign code = l[0] %}
-            {% if code == page_lang %}<span aria-current="true" title="{{ l[1].name }}"><span class="vh">{{ l[1].name }}</span><span aria-hidden="true">{{ code | upcase }}</span></span>
-            {% else %}<a href="{{ alt_url | relative_url }}" hreflang="{{ code }}" lang="{{ code }}" title="{{ l[1].name }}"><span class="vh">{{ l[1].name }}</span><span aria-hidden="true">{{ code | upcase }}</span></a>{% endif %}
+            {% capture inner %}{% include flag.html code=code %}<span class="langswitch__code" aria-hidden="true">{{ l[1].short }}</span><span class="vh">{{ l[1].name }}</span>{% endcapture %}
+            {% if code == page_lang %}<span class="langswitch__item" aria-current="true">{{ inner }}</span>
+            {% else %}<a class="langswitch__item" href="{{ alt_url | relative_url }}" hreflang="{{ code }}" lang="{{ code }}">{{ inner }}</a>{% endif %}
           {% endfor %}
         </nav>
       </div>

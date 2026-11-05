@@ -4,6 +4,7 @@
 # Swedish in _pages/sv/, and en/ + sv/ subfolders for projects and events).
 en:
   name: "English"
+  short: "ENG"
   home: "/"
   description: "Robotics research at Mälardalen University"
   university: "Mälardalen University"
@@ -56,6 +57,7 @@ en:
     "Report": "Report"
 sv:
   name: "Svenska"
+  short: "SV"
   home: "/sv/"
   description: "Robotikforskning vid Mälardalens universitet"
   university: "Mälardalens universitet"

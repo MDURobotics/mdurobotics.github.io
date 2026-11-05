@@ -1,0 +1,11 @@
+{% comment %}People marked `contact: true` in _data/people.yml, with email and role in the page language.{% endcomment %}
+<ul class="people">
+{% assign contacts = site.data.people.members | where: "contact", true %}
+{% for p in contacts %}
+  <li class="person">
+    <a class="person__name" href="{{ p.url }}">{{ p.name }}</a>
+    <span class="person__role">{% if page.lang == "sv" %}{{ p.role_sv | default: p.role }}{% else %}{{ p.role }}{% endif %}</span>
+    <a class="person__link" href="mailto:{{ p.email }}">{{ p.email }}</a>
+  </li>
+{% endfor %}
+</ul>

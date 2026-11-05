@@ -10,6 +10,8 @@ en:
     url: /events/
   - title: "Publications"
     url: /publications/
+  - title: "Contact"
+    url: /contact/
 sv:
   - title: "Om oss"
     url: /sv/about/
@@ -21,3 +23,5 @@ sv:
     url: /sv/events/
   - title: "Publikationer"
     url: /sv/publications/
+  - title: "Kontakt"
+    url: /sv/kontakt/
