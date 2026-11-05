@@ -1,7 +1,8 @@
 ---
+ref: accessibility
 title: "Tillgänglighetsredogörelse"
 label: "Tillgänglighet"
-permalink: /tillganglighet/
+permalink: /sv/tillganglighet/
 lang: "sv"
 ---
 
@@ -52,8 +53,8 @@ den europeiska standarden EN 301 549.
   inte kontrollerat att de har korrekta undertexter eller ett textalternativ
   som beskriver innehållet (WCAG 1.2.1, 1.2.2 och 1.2.5). Vi arbetar med att
   åtgärda detta.
-- **Publikationslistan.** Listan hämtas automatiskt från DiVA. Titlar på andra
-  språk än engelska är inte märkta med rätt språk, så en skärmläsare kan uttala
+- **Publikationslistan.** Listan hämtas automatiskt från DiVA. Titlar på ett annat
+  språk än sidans är inte märkta med rätt språk, så en skärmläsare kan uttala
   dem fel (WCAG 3.1.2).
 
 ## Hur vi testat webbplatsen

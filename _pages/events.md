@@ -1,4 +1,5 @@
 ---
+ref: events
 title: "Events"
 permalink: /events/
 label: "Calendar"

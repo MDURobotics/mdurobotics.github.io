@@ -1,5 +1,6 @@
-<div class="loop" aria-label="How a robot works">
-  <div><h2><span class="n">1</span> {{ include.sense | default: "Sense" }}</h2><p>{{ include.sense_text | default: "Cameras, LiDAR, GPS and motion sensors collect information about the world." }}</p></div>
-  <div><h2><span class="n">2</span> {{ include.plan | default: "Plan" }}</h2><p>{{ include.plan_text | default: "A computer interprets the data and plans what to do next — often with AI." }}</p></div>
-  <div><h2><span class="n">3</span> {{ include.act | default: "Act" }}</h2><p>{{ include.act_text | default: "Motors move arms, wheels or propellers. Then the loop starts over." }}</p></div>
+{% assign lt = site.data.i18n[page.lang].loop %}
+<div class="loop" aria-label="{{ site.data.i18n[page.lang].loop_label }}">
+  <div><h2><span class="n">1</span> {{ include.sense | default: lt.sense }}</h2><p>{{ include.sense_text | default: lt.sense_text }}</p></div>
+  <div><h2><span class="n">2</span> {{ include.plan | default: lt.plan }}</h2><p>{{ include.plan_text | default: lt.plan_text }}</p></div>
+  <div><h2><span class="n">3</span> {{ include.act | default: lt.act }}</h2><p>{{ include.act_text | default: lt.act_text }}</p></div>
 </div>

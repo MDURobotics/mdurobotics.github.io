@@ -7,12 +7,13 @@
   the limit; the script shows the next one when an event drops off.
 {% endcomment %}
 {% assign today = site.time | date: "%Y-%m-%d" %}
-{% assign months_sv = "jan,feb,mar,apr,maj,jun,jul,aug,sep,okt,nov,dec" | split: "," %}
+{% assign t = site.data.i18n[page.lang] %}
+{% assign lang_events = site.events | where: "lang", page.lang %}
 {% assign when = include.when | default: "upcoming" %}
 {% if when == "past" %}
-  {% assign events = site.events | sort: "date" | reverse %}
+  {% assign events = lang_events | sort: "date" | reverse %}
 {% else %}
-  {% assign events = site.events | sort: "date" %}
+  {% assign events = lang_events | sort: "date" %}
 {% endif %}
 {% assign shown = 0 %}
 <ul class="events{% if when == 'past' %} events--past{% endif %}" data-events="{{ when }}"{% if include.limit %} data-limit="{{ include.limit }}"{% endif %}>
@@ -20,9 +21,8 @@
   {% assign d = e.date | date: "%Y-%m-%d" %}
   {% if when == "past" %}{% if d >= today %}{% continue %}{% endif %}
   {% else %}{% if d < today %}{% continue %}{% endif %}{% endif %}
-  {% assign e_lang = e.lang | default: site.lang %}
-  <li class="event"{% if e_lang != page.lang %} lang="{{ e_lang }}"{% endif %} data-date="{{ d }}"{% if e.time %} data-time="{{ e.time | escape }}"{% endif %}{% if include.limit and shown >= include.limit %} hidden{% endif %}>
-    {% if e_lang == "sv" %}{% assign m = e.date | date: "%-m" | minus: 1 %}{% capture mon %}{{ months_sv[m] }} {{ e.date | date: "%Y" }}{% endcapture %}{% else %}{% assign mon = e.date | date: "%b %Y" %}{% endif %}
+  <li class="event" data-date="{{ d }}"{% if e.time %} data-time="{{ e.time | escape }}"{% endif %}{% if include.limit and shown >= include.limit %} hidden{% endif %}>
+    {% assign m = e.date | date: "%-m" | minus: 1 %}{% capture mon %}{{ t.months_short[m] }} {{ e.date | date: "%Y" }}{% endcapture %}
     <time class="event__date" datetime="{{ d }}"><b>{{ e.date | date: "%-d" }}</b> {{ mon }}</time>
     <div class="event__body">
       <a class="event__title" href="{{ e.url | relative_url }}">{{ e.title }}</a>
@@ -33,4 +33,4 @@
   {% assign shown = shown | plus: 1 %}
 {% endfor %}
 </ul>
-<p class="empty" data-events-empty="{{ when }}"{% if shown > 0 %} hidden{% endif %}>No {{ when }} events right now.</p>
+<p class="empty" data-events-empty="{{ when }}"{% if shown > 0 %} hidden{% endif %}>{{ t.no_events[when] }}</p>

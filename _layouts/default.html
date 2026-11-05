@@ -1,10 +1,14 @@
 <!doctype html>
-<html lang="{{ page.lang | default: site.lang }}">
+{% assign page_lang = page.lang | default: site.lang %}{% assign t = site.data.i18n[page_lang] %}{% include translation.html %}
+<html lang="{{ page_lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#00352d">
   {% seo %}
+  <link rel="alternate" hreflang="{{ page_lang }}" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="{{ alt_lang }}" href="{{ alt_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{% if page_lang == 'en' %}{{ page.url | absolute_url }}{% else %}{{ alt_url | absolute_url }}{% endif %}">
   {% feed_meta %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,19 +16,25 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
-  {% assign page_lang = page.lang | default: site.lang %}
-  {% if page_lang == "sv" %}{% assign chrome_lang = ' lang="en"' %}{% else %}{% assign chrome_lang = "" %}{% endif %}
-  <a class="skip" href="#main">{% if page_lang == "sv" %}Hoppa till innehållet{% else %}Skip to content{% endif %}</a>
-  <header class="topbar"{{ chrome_lang }}>
+  <a class="skip" href="#main">{{ t.skip }}</a>
+  <header class="topbar">
     <div class="wrap topbar__inner">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="MDU Robotics, home">MDU<span>Robotics</span></a>
-      <nav class="nav" aria-label="Main">
-        {% for item in site.data.navigation.main %}
-          {% assign active = false %}
-          {% if page.url contains item.url %}{% assign active = true %}{% endif %}
-          <a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a>
-        {% endfor %}
-      </nav>
+      <a class="brand" href="{{ t.home | relative_url }}" aria-label="{{ t.home_label }}">MDU<span>Robotics</span></a>
+      <div class="topbar__right">
+        <nav class="nav" aria-label="{{ t.nav_label }}">
+          {% for item in site.data.navigation[page_lang] %}
+            {% assign active = false %}
+            {% if page.url contains item.url %}{% assign active = true %}{% endif %}
+            <a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+        <nav class="langswitch" aria-label="{{ t.switch_label }}">
+          {% for l in site.data.i18n %}{% assign code = l[0] %}
+            {% if code == page_lang %}<span aria-current="true" title="{{ l[1].name }}"><span class="vh">{{ l[1].name }}</span><span aria-hidden="true">{{ code | upcase }}</span></span>
+            {% else %}<a href="{{ alt_url | relative_url }}" hreflang="{{ code }}" lang="{{ code }}" title="{{ l[1].name }}"><span class="vh">{{ l[1].name }}</span><span aria-hidden="true">{{ code | upcase }}</span></a>{% endif %}
+          {% endfor %}
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -32,17 +42,17 @@
     {{ content }}
   </main>
 
-  <footer class="footer"{{ chrome_lang }}>
+  <footer class="footer">
     <div class="wrap footer__inner">
       <div>
         <p class="brand brand--footer">MDU<span>Robotics</span></p>
-        <p>Mälardalens universitet · {{ site.location }}</p>
+        <p>{{ t.university }} · {{ t.location }}</p>
       </div>
       <div class="footer__links">
-        {% for item in site.data.navigation.main %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
+        {% for item in site.data.navigation[page_lang] %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
         <a href="{{ site.github }}">GitHub</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-        <a href="{{ '/tillganglighet/' | relative_url }}" lang="sv">Tillgänglighet</a>
+        <a href="{{ t.accessibility_url | relative_url }}">{{ t.accessibility }}</a>
       </div>
     </div>
   </footer>

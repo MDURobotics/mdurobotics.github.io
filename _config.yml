@@ -10,7 +10,7 @@ github: "https://github.com/mdurobotics"
 location: "Västerås, Sweden"
 # Shown on /tillganglighet/ (required by lag 2018:1937). TODO: set before going public
 accessibility_contact: ""
-# Student projects from this year are shown first; older years go under "Tidigare år"
+# Student projects from this year are shown first; older years go under "Earlier years"
 projects_current_year: 2026
 
 # Events are dated in the future; without this Jekyll skips them
@@ -33,23 +33,41 @@ plugins:
   - jekyll-seo-tag
 
 defaults:
+  # English is the default language. Swedish lives under /sv/ and in the
+  # sv/ subfolders. A page and its translation share the same `ref`
+  # (pages) or file name (projects, events); the language switch uses that.
   - scope:
       path: ""
       type: pages
     values:
       layout: page
+      lang: "en"
+  - scope:
+      path: "_pages/sv"
+    values:
+      lang: "sv"
   - scope:
       path: ""
       type: projects
     values:
       layout: project
+      lang: "en"
+  - scope:
+      path: "_projects/sv"
+    values:
       lang: "sv"
+      permalink: /sv/student-projects/:name/
   - scope:
       path: ""
       type: events
     values:
       layout: event
+      lang: "en"
+  - scope:
+      path: "_events/sv"
+    values:
       lang: "sv"
+      permalink: /sv/events/:name/
 
 exclude:
   - Gemfile

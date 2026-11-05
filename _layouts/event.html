@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-{% assign sv = false %}{% if page.lang == "sv" %}{% assign sv = true %}{% endif %}
-{% assign months_sv = "januari,februari,mars,april,maj,juni,juli,augusti,september,oktober,november,december" | split: "," %}
+{% assign t = site.data.i18n[page.lang] %}
+{% assign events_page = site.pages | where: "ref", "events" | where: "lang", page.lang | first %}
 <div class="wrap">
   <header class="pagehead">
-    <a class="label back" href="{{ '/events/' | relative_url }}"><span aria-hidden="true">←</span> {% if sv %}Alla evenemang{% else %}All events{% endif %}</a>
+    <a class="label back" href="{{ events_page.url | relative_url }}"><span aria-hidden="true">←</span> {{ t.all_events }}</a>
     <h1>{{ page.title }}</h1>
   </header>
   <dl class="facts facts--inline">
-    {% if sv %}{% assign m = page.date | date: "%-m" | minus: 1 %}{% capture when %}{{ page.date | date: "%-d" }} {{ months_sv[m] }} {{ page.date | date: "%Y" }}{% endcapture %}{% else %}{% assign when = page.date | date: "%-d %B %Y" %}{% endif %}
-    <div><dt>{% if sv %}Datum{% else %}Date{% endif %}</dt><dd><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ when }}</time></dd></div>
-    {% if page.time %}<div><dt>{% if sv %}Tid{% else %}Time{% endif %}</dt><dd>{{ page.time }}</dd></div>{% endif %}
-    {% if page.location %}<div><dt>{% if sv %}Plats{% else %}Where{% endif %}</dt><dd>{{ page.location }}</dd></div>{% endif %}
+    {% assign m = page.date | date: "%-m" | minus: 1 %}{% capture when %}{{ page.date | date: "%-d" }} {{ t.months[m] }} {{ page.date | date: "%Y" }}{% endcapture %}
+    <div><dt>{{ t.date }}</dt><dd><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ when }}</time></dd></div>
+    {% if page.time %}<div><dt>{{ t.time }}</dt><dd>{{ page.time }}</dd></div>{% endif %}
+    {% if page.location %}<div><dt>{{ t.where }}</dt><dd>{{ page.location }}</dd></div>{% endif %}
   </dl>
   <div class="prose">
     {{ content }}

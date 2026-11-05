@@ -21,6 +21,18 @@ Senast uppdaterad 2026-10-15. Se `README.md` för hur sajten är uppbyggd.
    Pages byggs om efter Actions-commiten. Om inte: lägg till ett deploy-steg
    eller en PAT.
 
+## Två språk (2026-11-05)
+
+Hela sajten finns på engelska (standard) och svenska (`/sv/`), med en EN | SV-knapp
+i menyraden. Se README.md, avsnittet "Two languages". Att granska:
+
+- [ ] Engelska översättningar av projekt och evenemang (gjorda med Claude, behöver läsas
+      av någon i gruppen).
+- [ ] Engelska namn på evenemang: "Meet an engineer (Stör en ingenjör)", "Foundation year
+      EXPO", "Study hall", "Industry advisory board". Rävarnas Revange och Högvarv är oöversatta.
+- Gamla adresser har bytt språk: `/student-projects/x/` och `/events/x/` är nu engelska,
+  de svenska ligger under `/sv/`. `/tillganglighet/` heter nu `/sv/tillganglighet/`.
+
 ## Text och innehåll som saknas (TODO i filerna)
 
 - [ ] `index.html`: en eller två meningar om labbets mission

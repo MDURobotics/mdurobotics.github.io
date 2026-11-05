@@ -6,39 +6,54 @@
 #
 # - name: "Firstname Lastname"
 #   role: "Professor"
+#   role_sv: "Professor"          # role in Swedish
 #   diva: ["abc01"]
 #   orcid: "0000-0000-0000-0000"   # optional
 members:
   - name: "Mikael Ekström"
-    role: "Professor of Robotics"
+    role: "Professor"
+    role_sv: "Professor"
     diva: ["mem02"]
     orcid: "0000-0002-5832-5452"
     url: "https://www.mdu.se/staff?id=mikael.ekstrom"
   - name: "Martin Ekström"
     role: "Senior Lecturer"
+    role_sv: "Lektor"
     diva: ["mem04"]
     url: "https://www.es.mdu.se/staff/177-Martin_Ekstrom"
   - name: "Carl Ahlberg"
-    role: "Research Engineer, PhD"
+    role: "Research Engineer"
+    role_sv: "Forskningsingenjör"
     diva: ["cag01"]
     url: "https://www.mdu.se/staff?id=carl.ahlberg"
   - name: "Johan Hjorth"
     role: "Lecturer"
+    role_sv: "Adjunkt"
     diva: ["jht04"]
     url: "https://www.mdu.se/staff?id=johan.hjorth"
   - name: "Lennie Carlén Eriksson"
-    role: "PhD Student"
+    role: "Lecturer"
+    role_sv: "Adjunkt"
     diva: ["lcn04"]
     url: "https://www.mdu.se/staff?id=lennie.carlen.eriksson"
   - name: "Jonas Larsson"
     role: "Lecturer"
+    role_sv: "Adjunkt"
     diva: []   # no staff publications linked in DiVA yet
     url: "https://www.mdu.se/staff?id=jonas.larsson"
+  - name: "Jonatan Tidare"
+    role: "Lecturer"
+    role_sv: "Adjunkt"
+    diva: ["jte01"]
+    orcid: "0000-0002-8174-1067"
+    url: "https://www.mdu.se/staff?id=jonatan.tidare"
   - name: "Niklas Persson"
-    role: "Lecturer, PhD"
+    role: "Lecturer"
+    role_sv: "Adjunkt"
     diva: ["npn01"]
     url: "https://www.mdu.se/staff?id=niklas.persson"
   - name: "Emil Persson"
     role: "PhD Student"
+    role_sv: "Doktorand"
     diva: ["epn03"]
     url: "https://www.mdu.se/staff?id=emil.persson"

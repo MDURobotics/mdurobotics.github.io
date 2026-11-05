@@ -1,0 +1,69 @@
+{% assign str = page.strings %}{% assign t = site.data.i18n[page.lang] %}
+<div class="wrap">
+  <section class="hero hero--sub">
+    <span class="label">{{ str.course }} · {{ t.autumn }} {{ site.projects_current_year }}</span>
+    <h1>{{ str.heading }} <mark>{{ str.heading_mark }}</mark></h1>
+    <p class="lede">{{ str.lede }}</p>
+    <p class="sub">{{ str.sub }}</p>
+  </section>
+
+  {% include loop.html sense_text=str.sense_text plan_text=str.plan_text %}
+
+  {% assign lang_projects = site.projects | where: "lang", page.lang %}
+  {% assign projects = lang_projects | where: "year", site.projects_current_year | sort: "order" %}
+  {% assign older = lang_projects | where_exp: "p", "p.year < site.projects_current_year" | group_by: "year" | sort: "name" | reverse %}
+  {% assign subjects = "" | split: "" %}
+  {% for p in lang_projects %}{% assign subjects = subjects | concat: p.subjects %}{% endfor %}
+  {% assign subjects = subjects | uniq | sort %}
+
+  <nav class="filter" aria-label="{{ str.filter_label }}">
+    <span class="label" id="filter-label">{{ str.filter_question }}</span>
+    <div class="filter__row" role="group" aria-labelledby="filter-label">
+      <button type="button" data-s="all" aria-pressed="true">{{ str.all }}</button>
+      {% for s in subjects %}<button type="button" data-s="{{ s }}" aria-pressed="false">{{ s }}</button>{% endfor %}
+    </div>
+    <p class="filter__status" id="filter-status" aria-live="polite"></p>
+  </nav>
+
+  <div class="cards cards--projects">
+    {% for p in projects %}{% include project-card.html p=p %}{% endfor %}
+  </div>
+
+  <p class="fine">{{ str.fine_current }}</p>
+
+  {% if older.size > 0 %}
+  <section class="section archive" aria-labelledby="archive-title">
+    <div class="section__head">
+      <span class="label">{{ str.history }}</span>
+      <h2 id="archive-title">{{ str.earlier_years }}</h2>
+    </div>
+    {% for y in older %}
+    <h3 class="archive__year">{{ t.autumn }} {{ y.name }}</h3>
+    <div class="cards cards--projects">
+      {% assign ps = y.items | sort: "order" %}
+      {% for p in ps %}{% include project-card.html p=p level=4 %}{% endfor %}
+    </div>
+    {% endfor %}
+    <p class="fine">{{ str.fine_earlier }}</p>
+  </section>
+  {% endif %}
+</div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.filter button');
+  var cards = document.querySelectorAll('.cards--projects .card');
+  var status = document.getElementById('filter-status');
+  function apply(subject) {
+    var hits = 0;
+    cards.forEach(function (c) {
+      var match = subject === 'all' || c.dataset.subjects.split(' ').indexOf(subject) !== -1;
+      c.hidden = !match;
+      if (match) hits++;
+    });
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.s === subject)); });
+    status.textContent = subject === 'all' ? '' : hits + {{ str.status_of | jsonify }} + cards.length + {{ str.status_link | jsonify }} + subject.toLowerCase() + '.';
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { apply(b.dataset.s); }); });
+})();
+</script>

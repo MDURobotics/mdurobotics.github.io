@@ -1,0 +1,15 @@
+{% comment %}
+  Finds the current page in the other language and sets `alt_url` (and
+  `alt_lang`). Projects and events are matched on file name (en/x.md ↔
+  sv/x.md), pages on their `ref`. Falls back to the other language's home page.
+{% endcomment %}
+{% assign cur_lang = page.lang | default: site.lang %}
+{% if cur_lang == "sv" %}{% assign alt_lang = "en" %}{% else %}{% assign alt_lang = "sv" %}{% endif %}
+{% assign alt_url = site.data.i18n[alt_lang].home %}
+{% if page.collection %}
+  {% assign alt_doc = site[page.collection] | where: "lang", alt_lang | where: "slug", page.slug | first %}
+  {% if alt_doc %}{% assign alt_url = alt_doc.url %}{% endif %}
+{% elsif page.ref %}
+  {% assign alt_doc = site.pages | where: "ref", page.ref | where: "lang", alt_lang | first %}
+  {% if alt_doc %}{% assign alt_url = alt_doc.url %}{% endif %}
+{% endif %}

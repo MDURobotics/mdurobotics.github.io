@@ -1,4 +1,5 @@
-main:
+# Main menu, one list per language. Keep the lists in the same order.
+en:
   - title: "About us"
     url: /about/
   - title: "Research"
@@ -9,3 +10,14 @@ main:
     url: /events/
   - title: "Publications"
     url: /publications/
+sv:
+  - title: "Om oss"
+    url: /sv/about/
+  - title: "Forskning"
+    url: /sv/research/
+  - title: "Studentprojekt"
+    url: /sv/student-projects/
+  - title: "Evenemang"
+    url: /sv/events/
+  - title: "Publikationer"
+    url: /sv/publications/

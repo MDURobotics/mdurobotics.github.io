@@ -1,0 +1,51 @@
+{% assign str = page.strings %}{% assign t = site.data.i18n[page.lang] %}
+<div class="wrap">
+  <section class="hero">
+    <span class="label">{{ str.place }}</span>
+    <h1>{{ str.heading }}</h1>
+    <p class="lede">{{ t.description }}. <!-- TODO: one or two sentences about the lab's mission --></p>
+    <div class="actions">
+      <a class="btn" href="{{ str.research_url | relative_url }}">{{ str.our_research }}</a>
+      <a class="btn btn--ghost" href="{{ str.projects_url | relative_url }}">{{ str.student_projects }} →</a>
+    </div>
+  </section>
+
+  {% include loop.html %}
+
+  <!-- Team photo: put it in assets/images/ and uncomment
+  <figure class="photo"><img src="{{ '/assets/images/team.jpg' | relative_url }}" alt="{{ str.team_alt }}"></figure>
+  -->
+
+  <section class="section">
+    <div class="section__head">
+      <span class="label">{{ str.in_action }}</span>
+      <h2>{{ str.robots_wild }}</h2>
+      <a class="more" href="{{ str.research_url | relative_url }}">{{ str.research }} →</a>
+    </div>
+    <div class="videos">
+      {% include video.html id="fvzAXwSQFCo" title="AutoBike Collage" caption=str.cap_autobike %}
+      {% include video.html id="yLYkwLrZBl4" title="AutoSail 2022 – Panama Bay test" caption=str.cap_autosail %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head">
+      <span class="label">{{ str.right_now }}</span>
+      <h2>{{ str.student_projects }}</h2>
+      <a class="more" href="{{ str.projects_url | relative_url }}">{{ str.all_projects }} →</a>
+    </div>
+    <div class="cards">
+      {% assign projects = site.projects | where: "lang", page.lang | where: "year", site.projects_current_year | sort: "order" %}
+      {% for p in projects limit: 3 %}{% include project-card.html p=p %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__head">
+      <span class="label">{{ str.calendar }}</span>
+      <h2>{{ str.upcoming }}</h2>
+      <a class="more" href="{{ str.events_url | relative_url }}">{{ t.all_events }} →</a>
+    </div>
+    {% include event-list.html when="upcoming" limit=3 %}
+  </section>
+</div>

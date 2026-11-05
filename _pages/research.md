@@ -1,4 +1,5 @@
 ---
+ref: research
 title: "Research"
 label: "What we work on"
 permalink: /research/

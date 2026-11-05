@@ -1,0 +1,72 @@
+{% assign pubs = site.data.publications %}{% assign str = page.strings %}{% assign types_t = site.data.i18n[page.lang].pub_types %}
+{% assign types = pubs | map: "type" | uniq | sort %}
+<div class="wrap">
+  <header class="pagehead">
+    <span class="label">{{ page.label }}</span>
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ pubs.size }} {{ page.lede }}</p>
+  </header>
+
+  {% if pubs.size > 0 %}
+  <nav class="filter" aria-label="{{ str.filter_label }}">
+    <div class="filter__row" role="group" aria-label="{{ str.type }}">
+      <button type="button" data-t="all" aria-pressed="true">{{ str.all }}</button>
+      {% for t in types %}<button type="button" data-t="{{ t }}" aria-pressed="false">{{ types_t[t] | default: t }}</button>{% endfor %}
+    </div>
+    <label class="search__label" for="pub-search">{{ str.search_label }}</label>
+    <input class="search" type="search" id="pub-search" placeholder="{{ str.search_placeholder }}">
+    <p class="filter__status" id="pub-status" aria-live="polite"></p>
+  </nav>
+
+  {% assign years = pubs | group_by: "year" %}
+  <div class="pubs">
+  {% for y in years %}
+    <section class="pubs__year" data-year>
+      <h2>{{ y.name | default: str.undated }}</h2>
+      <ol class="publist">
+      {% for p in y.items %}
+        <li class="pub" data-type="{{ p.type }}">
+          <span class="pub__type">{{ types_t[p.type] | default: p.type }}</span>
+          {% if p.doi %}{% assign link = "https://doi.org/" | append: p.doi %}{% else %}{% assign link = p.url | default: p.diva_url %}{% endif %}
+          {% if link %}<a class="pub__title" href="{{ link }}">{{ p.title }}</a>{% else %}<span class="pub__title">{{ p.title }}</span>{% endif %}
+          <p class="pub__authors">{% for a in p.authors %}{% if a.member %}<b>{{ a.name }}</b>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+          {% if p.supervisors %}<p class="pub__authors">{{ str.supervised_by }} {% for s in p.supervisors %}<b>{{ s }}</b>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
+          {% capture links %}{% if p.diva_url %}<a href="{{ p.diva_url }}">DiVA</a>{% endif %}{% if p.doi %}{% if p.diva_url %} · {% endif %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}{% endcapture %}
+          <p class="pub__venue">{% if p.venue != "" %}<i>{{ p.venue }}</i>{% if links != "" %} · {% endif %}{% endif %}{{ links }}</p>
+        </li>
+      {% endfor %}
+      </ol>
+    </section>
+  {% endfor %}
+  </div>
+  {% else %}
+  <p class="empty">{{ str.empty }}</p>
+  {% endif %}
+</div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.filter button');
+  var search = document.getElementById('pub-search');
+  var status = document.getElementById('pub-status');
+  var items = document.querySelectorAll('.pub');
+  if (!items.length) return;
+  var type = 'all';
+  items.forEach(function (li) { li._text = li.textContent.toLowerCase(); });
+  function apply() {
+    var q = search.value.trim().toLowerCase(), hits = 0;
+    items.forEach(function (li) {
+      var ok = (type === 'all' || li.dataset.type === type) && (!q || li._text.indexOf(q) !== -1);
+      li.hidden = !ok;
+      if (ok) hits++;
+    });
+    document.querySelectorAll('[data-year]').forEach(function (s) {
+      s.hidden = !s.querySelector('.pub:not([hidden])');
+    });
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.t === type)); });
+    status.textContent = (type === 'all' && !q) ? '' : hits + {{ str.status_of | jsonify }} + items.length + {{ str.status_pubs | jsonify }};
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { type = b.dataset.t; apply(); }); });
+  search.addEventListener('input', apply);
+})();
+</script>

@@ -1,76 +1,24 @@
 ---
-title: "Sex robotar. Ett halvår."
+title: "Six robots. One semester."
 permalink: /student-projects/
+ref: student-projects
 layout: default
-lang: "sv"
+strings:
+  course: "Project course in robotics and intelligent embedded systems"
+  heading: "Six robots."
+  heading_mark: "One semester."
+  lede: "Right now, engineering and master's students at MDU are building six different robots: a boat that drives itself, a humanoid factory robot, a robot arm that learns from your movements and much more."
+  sub: "This is the last course before the degree project. The students work in teams of five to six, often together with a company, and have one semester to go from a project plan to a robot that works for real."
+  sense_text: "Sensors collect information: cameras, distance sensors, GPS, motion sensors."
+  plan_text: "A computer interprets the data and plans what should happen. Often with the help of AI."
+  filter_label: "Filter by school subject"
+  filter_question: "Which projects connect to your subject?"
+  all: "All"
+  status_of: " of "
+  status_link: " projects connect to "
+  fine_current: "The descriptions are based on the teams' project plans from September 2026. The projects run until January 2027 and the goals may change along the way."
+  history: "History"
+  earlier_years: "Earlier years"
+  fine_earlier: "The descriptions of earlier projects are based on the teams' final reports."
 ---
-<div class="wrap">
-  <section class="hero hero--sub">
-    <span class="label">Projektkurs i robotik och intelligenta inbyggda system · Hösten 2026</span>
-    <h1>Sex robotar. <mark>Ett halvår.</mark></h1>
-    <p class="lede">Just nu bygger ingenjörs- och masterstudenter på MDU sex olika robotar: en båt som kör själv, en människoliknande fabriksrobot, en robotarm som lär sig av dina rörelser och mycket mer.</p>
-    <p class="sub">Det här är sista kursen innan examensarbetet. Studenterna jobbar i grupper om fem–sex personer, ofta tillsammans med ett företag, och ska på ett halvår gå från en projektplan till en robot som fungerar på riktigt.</p>
-  </section>
-
-  {% include loop.html sense="Känna" plan="Planera" act="Agera"
-     sense_text="Sensorer samlar in information: kameror, avståndsmätare, GPS, rörelsesensorer."
-     plan_text="En dator tolkar datan och planerar vad som ska hända. Ofta med hjälp av AI."
-     act_text="Motorer flyttar armar, hjul eller propellrar. Sedan börjar loopen om." %}
-
-  {% assign projects = site.projects | where: "year", site.projects_current_year | sort: "order" %}
-  {% assign older = site.projects | where_exp: "p", "p.year < site.projects_current_year" | group_by: "year" | sort: "name" | reverse %}
-  {% assign subjects = "" | split: "" %}
-  {% for p in site.projects %}{% assign subjects = subjects | concat: p.subjects %}{% endfor %}
-  {% assign subjects = subjects | uniq | sort %}
-
-  <nav class="filter" aria-label="Filtrera på skolämne">
-    <span class="label" id="filter-label">Vilka projekt hänger ihop med ditt ämne?</span>
-    <div class="filter__row" role="group" aria-labelledby="filter-label">
-      <button type="button" data-s="alla" aria-pressed="true">Alla</button>
-      {% for s in subjects %}<button type="button" data-s="{{ s }}" aria-pressed="false">{{ s }}</button>{% endfor %}
-    </div>
-    <p class="filter__status" id="filter-status" aria-live="polite"></p>
-  </nav>
-
-  <div class="cards cards--projects">
-    {% for p in projects %}{% include project-card.html p=p %}{% endfor %}
-  </div>
-
-  <p class="fine">Beskrivningarna bygger på studentgruppernas projektplaner från september 2026. Projekten pågår till januari 2027 och målen kan ändras på vägen.</p>
-
-  {% if older.size > 0 %}
-  <section class="section archive" aria-labelledby="archive-title">
-    <div class="section__head">
-      <span class="label">Historik</span>
-      <h2 id="archive-title">Tidigare år</h2>
-    </div>
-    {% for y in older %}
-    <h3 class="archive__year">Hösten {{ y.name }}</h3>
-    <div class="cards cards--projects">
-      {% assign ps = y.items | sort: "order" %}
-      {% for p in ps %}{% include project-card.html p=p level=4 %}{% endfor %}
-    </div>
-    {% endfor %}
-    <p class="fine">Beskrivningarna av tidigare projekt bygger på gruppernas slutrapporter.</p>
-  </section>
-  {% endif %}
-</div>
-
-<script>
-(function () {
-  var buttons = document.querySelectorAll('.filter button');
-  var cards = document.querySelectorAll('.cards--projects .card');
-  var status = document.getElementById('filter-status');
-  function apply(subject) {
-    var hits = 0;
-    cards.forEach(function (c) {
-      var match = subject === 'alla' || c.dataset.subjects.split(' ').indexOf(subject) !== -1;
-      c.hidden = !match;
-      if (match) hits++;
-    });
-    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.s === subject)); });
-    status.textContent = subject === 'alla' ? '' : hits + ' av ' + cards.length + ' projekt kopplar till ' + subject.toLowerCase() + '.';
-  }
-  buttons.forEach(function (b) { b.addEventListener('click', function () { apply(b.dataset.s); }); });
-})();
-</script>
+{% include student-projects.html %}
