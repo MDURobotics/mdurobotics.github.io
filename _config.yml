@@ -1,9 +1,11 @@
 title: "MDU Robotics"
 description: "Robotics research at Mälardalen University"
 tagline: "Robots that sense, plan and act — built at Mälardalen University."
-url: "https://mdurobotics.github.io"
+url: "https://johanhjorth.github.io"
 baseurl: ""
 lang: "en"
+# Dates and "today" are Swedish time (the build server runs in UTC)
+timezone: "Europe/Stockholm"
 github: "https://github.com/mdurobotics"
 location: "Västerås, Sweden"
 # Shown on /tillganglighet/ (required by lag 2018:1937). TODO: set before going public

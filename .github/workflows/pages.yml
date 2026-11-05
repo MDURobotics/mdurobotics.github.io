@@ -9,6 +9,8 @@ on:
   workflow_run:            # commits made by the publications bot don't trigger push workflows
     workflows: ["Update publications"]
     types: [completed]
+  schedule:                # nightly rebuild so past events move to the archive even without JS
+    - cron: "15 0 * * *"   # 01:15/02:15 Swedish time
   workflow_dispatch:
 
 permissions:
