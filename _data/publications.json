@@ -1,5 +1,32 @@
 [
  {
+  "id": "diva2:2114903",
+  "type": "Conference paper",
+  "year": 2026,
+  "title": "Authority-Fenced Recovery in Hierarchical Multi-Robot Systems",
+  "authors": [
+   {
+    "name": "Emil Persson",
+    "member": true
+   },
+   {
+    "name": "Saad Mubeen",
+    "member": false
+   },
+   {
+    "name": "Cristina Seceleanu",
+    "member": false
+   },
+   {
+    "name": "Mikael Ekström",
+    "member": true
+   }
+  ],
+  "venue": "2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)",
+  "doi": "10.1109/ETFA68377.2026.11724922",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2114903"
+ },
+ {
   "id": "diva2:2015869",
   "type": "PhD thesis",
   "year": 2026,
@@ -13,6 +40,37 @@
   "venue": "Mälardalen University",
   "doi": null,
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2015869"
+ },
+ {
+  "id": "diva2:2051543",
+  "type": "Journal article",
+  "year": 2026,
+  "title": "Exploration of using 'distance-to-bound' to manipulate the difficulty during motor imagery BCI training after stroke-a clinical two-cases study",
+  "authors": [
+   {
+    "name": "Jonatan Tidare",
+    "member": true
+   },
+   {
+    "name": "Martin Johansson-Alvarez",
+    "member": false
+   },
+   {
+    "name": "Jeanette Plantin",
+    "member": false
+   },
+   {
+    "name": "Susanne Palmcrantz",
+    "member": false
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   }
+  ],
+  "venue": "Journal of Neural Engineering",
+  "doi": "10.1088/1741-2552/ae512c",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2051543"
  },
  {
   "id": "manual:jointleveleffectsofpersonalizedcurvature",
@@ -59,6 +117,29 @@
   "venue": "IEEE-EMBS International Conference on Body Sensor Networks (BSN 2026)",
   "doi": null,
   "url": null
+ },
+ {
+  "id": "diva2:2112798",
+  "type": "Conference paper",
+  "year": 2026,
+  "title": "Resilient Direct Data-Driven Control Design under Poisoned Input-State Samples",
+  "authors": [
+   {
+    "name": "Mojtaba Kaheni",
+    "member": false
+   },
+   {
+    "name": "Niklas Persson",
+    "member": true
+   },
+   {
+    "name": "Alessandro Papadopoulos",
+    "member": false
+   }
+  ],
+  "venue": "2026 EUROPEAN CONTROL CONFERENCE, ECC",
+  "doi": null,
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2112798"
  },
  {
   "id": "diva2:2085167",
@@ -113,6 +194,29 @@
   "venue": "Drones and Unmanned Systems",
   "doi": null,
   "url": null
+ },
+ {
+  "id": "diva2:2114907",
+  "type": "Conference paper",
+  "year": 2026,
+  "title": "Teaching a Humanoid an Industrial Kitting Task with Vision-Language-Action Policies",
+  "authors": [
+   {
+    "name": "Nicklas Andersson",
+    "member": false
+   },
+   {
+    "name": "Rasmus Larsson",
+    "member": false
+   },
+   {
+    "name": "Niklas Persson",
+    "member": true
+   }
+  ],
+  "venue": "2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)",
+  "doi": "10.1109/ETFA68377.2026.11725208",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2114907"
  },
  {
   "id": "diva2:2007738",
@@ -218,6 +322,37 @@
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2088798"
  },
  {
+  "id": "diva2:2011051",
+  "type": "Report",
+  "year": 2025,
+  "title": "Exploration of using “distance-to-bound” to manipulate the difficulty during motor imagery BCI training after stroke : A clinical two-cases study",
+  "authors": [
+   {
+    "name": "Jonatan Tidare",
+    "member": true
+   },
+   {
+    "name": "Martin Johansson-Alvarez",
+    "member": false
+   },
+   {
+    "name": "Jeanette, Plantin",
+    "member": false
+   },
+   {
+    "name": "Susanne Palmcrantz",
+    "member": false
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   }
+  ],
+  "venue": "",
+  "doi": null,
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2011051"
+ },
+ {
   "id": "diva2:1956825",
   "type": "Journal article",
   "year": 2025,
@@ -247,6 +382,21 @@
   "venue": "International Journal on Software Tools for Technology Transfer",
   "doi": "10.1007/s10009-025-00802-4",
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1956825"
+ },
+ {
+  "id": "diva2:2011186",
+  "type": "PhD thesis",
+  "year": 2025,
+  "title": "Towards adaptive time-resolved multivariate decoding in brain-computer interface rehabilitation after stroke",
+  "authors": [
+   {
+    "name": "Jonatan Tidare",
+    "member": true
+   }
+  ],
+  "venue": "Mälardalen University",
+  "doi": null,
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:2011186"
  },
  {
   "id": "diva2:1912960",
@@ -1279,6 +1429,33 @@
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1651811"
  },
  {
+  "id": "diva2:1546670",
+  "type": "Conference paper",
+  "year": 2021,
+  "title": "EEG non-stationarity across multiple sessions during a Motor Imagery-BCI intervention : two post stroke case series",
+  "authors": [
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   },
+   {
+    "name": "Jeanette Plantin",
+    "member": false
+   },
+   {
+    "name": "Susanne Palmcrantz",
+    "member": false
+   },
+   {
+    "name": "Jonatan Tidare",
+    "member": true
+   }
+  ],
+  "venue": "10th International IEEE EMBS Conference on Neural Engineering NER'21",
+  "doi": "10.1109/NER49283.2021.9441076",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1546670"
+ },
+ {
   "id": "diva2:1558973",
   "type": "Conference paper",
   "year": 2021,
@@ -1335,6 +1512,21 @@
   "venue": "Advances in Science, Technology and Engineering Systems",
   "doi": "10.25046/aj060172",
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1534421"
+ },
+ {
+  "id": "diva2:1521715",
+  "type": "Licentiate thesis",
+  "year": 2021,
+  "title": "Temporal representation of Motor Imagery : towards improved Brain-Computer Interface-based strokerehabilitation",
+  "authors": [
+   {
+    "name": "Jonatan Tidare",
+    "member": true
+   }
+  ],
+  "venue": "Mälardalen University",
+  "doi": null,
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1521715"
  },
  {
   "id": "diva2:1469171",
@@ -1638,6 +1830,29 @@
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1499499"
  },
  {
+  "id": "diva2:1515483",
+  "type": "Journal article",
+  "year": 2020,
+  "title": "Time-resolved estimation of strength of Motor Imagery representation by multivariate EEG decoding.",
+  "authors": [
+   {
+    "name": "Jonatan Tidare",
+    "member": true
+   },
+   {
+    "name": "Miguel Leon",
+    "member": false
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   }
+  ],
+  "venue": "Journal of Neural Engineering",
+  "doi": "10.1088/1741-2552/abd007",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1515483"
+ },
+ {
   "id": "diva2:1484621",
   "type": "Conference paper",
   "year": 2020,
@@ -1710,6 +1925,33 @@
   ]
  },
  {
+  "id": "diva2:1327854",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "Discriminating EEG spectral power related to mental imagery of closing and opening of hand",
+  "authors": [
+   {
+    "name": "Jonatan Tidare",
+    "member": true
+   },
+   {
+    "name": "Miguel Leon",
+    "member": false
+   },
+   {
+    "name": "Ning Xiong",
+    "member": false
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   }
+  ],
+  "venue": "2019 9TH INTERNATIONAL IEEE/EMBS CONFERENCE ON NEURAL ENGINEERING (NER)",
+  "doi": "10.1109/NER.2019.8717059",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1327854"
+ },
+ {
   "id": "diva2:1314605",
   "type": "Conference paper",
   "year": 2019,
@@ -1735,6 +1977,37 @@
   "venue": "ICORES 2019 - Proceedings of the 8th International Conference on Operations Research and Enterprise Systems",
   "doi": "10.5220/0007309002370244",
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1314605"
+ },
+ {
+  "id": "diva2:1379391",
+  "type": "Conference paper",
+  "year": 2019,
+  "title": "Feature Selection of EEG Oscillatory Activity Related to Motor Imagery Using a Hierarchical Genetic Algorithm",
+  "authors": [
+   {
+    "name": "Miguel Leon",
+    "member": false
+   },
+   {
+    "name": "Joaquin Ballesteros",
+    "member": false
+   },
+   {
+    "name": "Jonatan Tidare",
+    "member": true
+   },
+   {
+    "name": "Ning Xiong",
+    "member": false
+   },
+   {
+    "name": "Elaine Åstrand",
+    "member": false
+   }
+  ],
+  "venue": "2019 IEEE Congress on Evolutionary Computation, CEC 2019 - Proceedings",
+  "doi": "10.1109/CEC.2019.8789948",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1379391"
  },
  {
   "id": "diva2:1346671",
@@ -2076,7 +2349,7 @@
   "authors": [
    {
     "name": "Jonatan Tidare",
-    "member": false
+    "member": true
    },
    {
     "name": "Elaine Åstrand",
