@@ -14,7 +14,7 @@ permalink: /about/
   <li class="person">
     <a class="person__name" href="{{ p.url }}">{{ p.name }}</a>
     <span class="person__role">{% if page.lang == "sv" %}{{ p.role_sv | default: p.role }}{% else %}{{ p.role }}{% endif %}</span>
-    {% if p.orcid %}<a class="person__link" href="https://orcid.org/{{ p.orcid }}">ORCID</a>{% endif %}
+    {% if p.scholar %}<a class="person__link" href="https://scholar.google.com/citations?user={{ p.scholar }}">Google Scholar</a>{% endif %}
   </li>
 {% endfor %}
 </ul>

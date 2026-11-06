@@ -8,7 +8,7 @@
 #   role: "Professor"
 #   role_sv: "Professor"          # role in Swedish
 #   diva: ["abc01"]
-#   orcid: "0000-0000-0000-0000"   # optional
+#   scholar: "abcDEF0AAAAJ"        # optional: Google Scholar user id (the user= part of the profile URL)
 #   email: "firstname.lastname@mdu.se"  # optional
 #   contact: true                  # optional: list on the Contact page
 members:
@@ -16,23 +16,31 @@ members:
     role: "Professor"
     role_sv: "Professor"
     diva: ["mem02"]
-    orcid: "0000-0002-5832-5452"
     url: "https://www.mdu.se/staff?id=mikael.ekstrom"
+    scholar: "cpevrQIAAAAJ"
   - name: "Martin Ekström"
     role: "Senior Lecturer"
     role_sv: "Lektor"
     diva: ["mem04"]
     url: "https://www.es.mdu.se/staff/177-Martin_Ekstrom"
+    scholar: "DGpXhF0AAAAJ"
+  - name: "Fredrik Ekstrand"
+    role: "Lecturer, Deputy Head of Department"
+    role_sv: "Adjunkt, biträdande prefekt"
+    diva: ["fed01"]
+    url: "https://www.mdu.se/staff?id=fredrik.ekstrand"
   - name: "Carl Ahlberg"
     role: "Research Engineer"
     role_sv: "Forskningsingenjör"
     diva: ["cag01"]
     url: "https://www.mdu.se/staff?id=carl.ahlberg"
+    scholar: "Jig2SAMAAAAJ"
   - name: "Johan Hjorth"
     role: "Lecturer"
     role_sv: "Adjunkt"
     diva: ["jht04"]
     url: "https://www.mdu.se/staff?id=johan.hjorth"
+    scholar: "QNzx5FcAAAAJ"
     email: "johan.hjorth@mdu.se"
     contact: true      # listed on the Contact page
   - name: "Lennie Carlén Eriksson"
@@ -51,13 +59,14 @@ members:
     role: "Lecturer"
     role_sv: "Adjunkt"
     diva: ["jte01"]
-    orcid: "0000-0002-8174-1067"
     url: "https://www.mdu.se/staff?id=jonatan.tidare"
+    scholar: "qDRP4fQAAAAJ"
   - name: "Niklas Persson"
     role: "Lecturer"
     role_sv: "Adjunkt"
     diva: ["npn01"]
     url: "https://www.mdu.se/staff?id=niklas.persson"
+    scholar: "2ckRB2QAAAAJ"
     email: "niklas.persson@mdu.se"
     contact: true      # listed on the Contact page
   - name: "Emil Persson"
@@ -65,3 +74,4 @@ members:
     role_sv: "Doktorand"
     diva: ["epn03"]
     url: "https://www.mdu.se/staff?id=emil.persson"
+    scholar: "KQoUEgwAAAAJ"
