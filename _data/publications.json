@@ -1043,7 +1043,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Mikael Ekström",
@@ -1544,7 +1544,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Mikael Ekström",
@@ -2163,7 +2163,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Mikael Ekström",
@@ -2511,6 +2511,33 @@
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1153136"
  },
  {
+  "id": "diva2:1188113",
+  "type": "Conference paper",
+  "year": 2017,
+  "title": "Early Results and Ideas for Enhancements of the Master of Engineering Programme in Dependable Aerospace Systems",
+  "authors": [
+   {
+    "name": "Håkan Forsberg",
+    "member": false
+   },
+   {
+    "name": "Kristina Lundqvist",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": true
+   },
+   {
+    "name": "Magnus Otterskog",
+    "member": false
+   }
+  ],
+  "venue": "The 6th Development Conference for Swedish Engineering USIU2017",
+  "doi": null,
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:1188113"
+ },
+ {
   "id": "diva2:1141148",
   "type": "Conference paper",
   "year": 2017,
@@ -2808,7 +2835,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Mikael Ekström",
@@ -2835,7 +2862,7 @@
   "authors": [
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Carl Ahlberg",
@@ -2957,7 +2984,7 @@
   "authors": [
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Carl Ahlberg",
@@ -3027,7 +3054,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Mikael Ekström",
@@ -3066,7 +3093,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Mikael Ekström",
@@ -3232,7 +3259,7 @@
   "authors": [
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Carl Ahlberg",
@@ -3275,7 +3302,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Mikael Ekström",
@@ -3306,7 +3333,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Giacomo Spampinato",
@@ -3360,7 +3387,7 @@
   "authors": [
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Carl Ahlberg",
@@ -3382,6 +3409,21 @@
   "venue": "ICARA 2011 - Proceedings of the 5th International Conference on Automation, Robotics and Applications",
   "doi": "10.1109/ICARA.2011.6144928",
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:441053"
+ },
+ {
+  "id": "diva2:440864",
+  "type": "Licentiate thesis",
+  "year": 2011,
+  "title": "Resource Optimized Stereo Matching in Reconfigurable Hardware for Autonomous Systems",
+  "authors": [
+   {
+    "name": "Fredrik Ekstrand",
+    "member": true
+   }
+  ],
+  "venue": "Mälardalen University",
+  "doi": null,
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:440864"
  },
  {
   "id": "diva2:439516",
@@ -3466,7 +3508,7 @@
    },
    {
     "name": "Fredrik Ekstrand",
-    "member": false
+    "member": true
    },
    {
     "name": "Carl Ahlberg",
@@ -3526,6 +3568,33 @@
   "venue": "Medicinteknikdagarna, Västerås, 2009",
   "doi": null,
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:301698"
+ },
+ {
+  "id": "diva2:301625",
+  "type": "Conference paper",
+  "year": 2009,
+  "title": "Stereo Vision Based Navigation for Automated Vehicles in Industry",
+  "authors": [
+   {
+    "name": "Giacomo Spampinato",
+    "member": false
+   },
+   {
+    "name": "Jörgen Lidholm",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   }
+  ],
+  "venue": "14th IEEE International Conference on emerging Technologies and Factory Automation ETFA 2009",
+  "doi": "10.1109/ETFA.2009.5347238",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:301625"
  },
  {
   "id": "diva2:369226",
@@ -3592,6 +3661,52 @@
   "venue": "2008 3RD INTERNATIONAL SYMPOSIUM ON WIRELESS PERVASIVE COMPUTING, VOLS 1-2",
   "doi": "10.1109/ISWPC.2008.4556196",
   "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:237241"
+ },
+ {
+  "id": "diva2:237265",
+  "type": "Conference paper",
+  "year": 2008,
+  "title": "ROBOTICS FOR SMEs - 3D VISION IN REAL-TIME FOR NAVIGATION AND OBJECT RECOGNITION",
+  "authors": [
+   {
+    "name": "Fredrik Ekstrand",
+    "member": true
+   },
+   {
+    "name": "Jörgen Lidholm",
+    "member": false
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   }
+  ],
+  "venue": "39th International Symposium on Robotics, ISR 2008 : Proceedings",
+  "doi": null,
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:237265"
+ },
+ {
+  "id": "diva2:237264",
+  "type": "Conference paper",
+  "year": 2008,
+  "title": "Two Camera System for Robot Applications; Navigation",
+  "authors": [
+   {
+    "name": "Jörgen Lidholm",
+    "member": false
+   },
+   {
+    "name": "Fredrik Ekstrand",
+    "member": true
+   },
+   {
+    "name": "Lars Asplund",
+    "member": false
+   }
+  ],
+  "venue": "13th IEEE International Conference on Emerging Technologies and Factory Automation, 2008. (ETFA 2008)",
+  "doi": "10.1109/ETFA.2008.4638417",
+  "diva_url": "https://mdu.diva-portal.org/smash/record.jsf?pid=diva2:237264"
  },
  {
   "id": "diva2:1816613",
