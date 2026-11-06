@@ -36,8 +36,8 @@ members:
     url: "https://www.mdu.se/staff?id=carl.ahlberg"
     scholar: "Jig2SAMAAAAJ"
   - name: "Johan Hjorth"
-    role: "Lecturer"
-    role_sv: "Adjunkt"
+    role: "Lecturer, Programme Director"
+    role_sv: "Adjunkt, programföreträdare"
     diva: ["jht04"]
     url: "https://www.mdu.se/staff?id=johan.hjorth"
     scholar: "QNzx5FcAAAAJ"
@@ -49,8 +49,8 @@ members:
     diva: ["lcn04"]
     url: "https://www.mdu.se/staff?id=lennie.carlen.eriksson"
   - name: "Jonas Larsson"
-    role: "Lecturer"
-    role_sv: "Adjunkt"
+    role: "Lecturer, Programme Director"
+    role_sv: "Adjunkt, programföreträdare"
     diva: []   # no staff publications linked in DiVA yet
     url: "https://www.mdu.se/staff?id=jonas.larsson"
     email: "jonas.larsson@mdu.se"
@@ -67,8 +67,6 @@ members:
     diva: ["npn01"]
     url: "https://www.mdu.se/staff?id=niklas.persson"
     scholar: "2ckRB2QAAAAJ"
-    email: "niklas.persson@mdu.se"
-    contact: true      # listed on the Contact page
   - name: "Emil Persson"
     role: "PhD Student"
     role_sv: "Doktorand"

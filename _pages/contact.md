@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 label: "Get in touch"
-lede: "Questions about our research, student projects or collaboration? Email one of us."
+lede: "Questions about our programmes, student projects or collaboration? Email one of our programme directors."
 permalink: /contact/
 ref: contact
 ---

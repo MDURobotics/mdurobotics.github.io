@@ -1,7 +1,7 @@
 ---
 title: "Kontakt"
 label: "Hör av dig"
-lede: "Frågor om vår forskning, studentprojekten eller samarbeten? Mejla någon av oss."
+lede: "Frågor om våra program, studentprojekten eller samarbeten? Mejla någon av våra programföreträdare."
 permalink: /sv/kontakt/
 ref: contact
 ---

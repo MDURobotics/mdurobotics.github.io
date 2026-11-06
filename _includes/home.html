@@ -18,6 +18,15 @@
 
   <section class="section">
     <div class="section__head">
+      <span class="label">{{ str.calendar }}</span>
+      <h2>{{ str.upcoming }}</h2>
+      <a class="more" href="{{ str.events_url | relative_url }}">{{ t.all_events }} →</a>
+    </div>
+    {% include event-list.html when="upcoming" limit=3 %}
+  </section>
+
+  <section class="section">
+    <div class="section__head">
       <span class="label">{{ str.in_action }}</span>
       <h2>{{ str.robots_wild }}</h2>
       <a class="more" href="{{ str.research_url | relative_url }}">{{ str.research }} →</a>
@@ -40,12 +49,4 @@
     </div>
   </section>
 
-  <section class="section">
-    <div class="section__head">
-      <span class="label">{{ str.calendar }}</span>
-      <h2>{{ str.upcoming }}</h2>
-      <a class="more" href="{{ str.events_url | relative_url }}">{{ t.all_events }} →</a>
-    </div>
-    {% include event-list.html when="upcoming" limit=3 %}
-  </section>
 </div>
